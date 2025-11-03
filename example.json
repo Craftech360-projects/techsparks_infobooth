@@ -1,0 +1,52 @@
+{
+  "agenda_date": "Nov 06",
+  "venue": "Aura Hall",
+  "sessions": [
+    {
+      "title": "Opening Act",
+      "time": "10:00 AM",
+      "duration": "10 mins"
+    },
+    {
+      "title": "Welcome Address",
+      "description": "Ushering India's AI revolution @ TechSparks",
+      "speakers": [
+        {
+          "name": "Shradha Sharma",
+          "designation": "Founder & CEO, YourStory"
+        }
+      ],
+      "time": "10:10 AM",
+      "duration": "5 mins"
+    },
+    {
+      "title": "Opening Keynote Address",
+      "description": "Description",
+      "speakers": [
+        {
+          "name": "Priyank Kharge",
+          "designation": "Minister for IT, BT, and Rural Development, Government of Karnataka"
+        }
+      ],
+      "time": "10:20 AM",
+      "duration": "15 mins"
+    },
+    {
+      "title": "Opening Fireside Chat",
+      "description": "Description",
+      "speakers": [
+        {
+          "name": "Priyank Kharge",
+          "designation": "Minister for IT, BT, and Rural Development, Government of Karnataka"
+        },
+        {
+          "name": "Shradha Sharma",
+          "designation": "Founder & CEO, YourStory"
+        }
+      ],
+      "time": "10:40 AM",
+      "duration": "30 mins",
+      "venue": "Harmony Hall"
+    }
+  ]
+}

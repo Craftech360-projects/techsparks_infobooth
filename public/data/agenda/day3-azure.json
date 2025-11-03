@@ -1,0 +1,24 @@
+[
+  {
+    "Day": "Day 03",
+    "Venue": "Azure",
+    "Session format": "Masterclass",
+    "Session type": "Editorial ",
+    "Session Name": "Jatin Saini",
+    "Moderator": "nan",
+    "Session duration (mins)": "30",
+    "Session Time From (IST)": "02:30:00",
+    "Session Time To (IST)": "03:00:00"
+  },
+  {
+    "Day": "Day 03",
+    "Venue": "Azure",
+    "Session format": "Masterclass",
+    "Session type": "Editorial ",
+    "Session Name": "Tally",
+    "Moderator": "nan",
+    "Session duration (mins)": "30",
+    "Session Time From (IST)": "03:30:00",
+    "Session Time To (IST)": "04:00:00"
+  }
+]

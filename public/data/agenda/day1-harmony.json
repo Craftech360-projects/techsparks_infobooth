@@ -1,0 +1,101 @@
+[
+  {
+    "Day": "Day 01",
+    "Venue": "Harmony",
+    "Session format": "Masterclass",
+    "Session type": "Editorial ",
+    "Session Name": "Masterclass\n\nBuilding efficient AI systems: A CTO’s guide to pragmatism over hype\nAs AI transforms industries, businesses realise that not every shiny model delivers value. InMobi CTO Mohit Saxena decodes what it takes to build efficient, scalable AI systems that cut through the hype to focus on architecture, data discipline, and pragmatic innovation and actually drive business outcomes in the real world.\n\nMohit Saxena, Co-founder & CTO, Inmobi",
+    "Moderator": "nan",
+    "Session duration (mins)": "25",
+    "Session Time From (IST)": "02:00:00",
+    "Session Time To (IST)": "02:25:00"
+  },
+  {
+    "Day": "Day 01",
+    "Venue": "Harmony",
+    "Session format": "Fireside Chat ",
+    "Session type": "Sponsored",
+    "Session Name": "Fireside Chat\n\nPerformance for all: Democratizing activewear in India\nAs India gets younger, fitter, and more aspirational, activewear has become an\neveryday lifestyle. Learn how TechnoSport is decoding this shift, building large-\nscale manufacturing facilities, driving innovation to make performance wear\naccessible, and positioning the country as a global activewear powerhouse.\n\nPuspen Maity, CEO, Technosport\n\nModerator: Shivani Muthanna, Senior Director - Strategic Partnerships & Content, YourStory",
+    "Moderator": "Shivani ",
+    "Session duration (mins)": "20",
+    "Session Time From (IST)": "02:30:00",
+    "Session Time To (IST)": "02:50:00"
+  },
+  {
+    "Day": "Day 01",
+    "Venue": "Harmony",
+    "Session format": "Masterclass",
+    "Session type": "Editorial ",
+    "Session Name": "Masterclass\n\nModels to markets: Vertical AI for the Indian consumer\nHow do you move from building models to mass adoption? Sanjay Mohan, Group CTO of MakeMyTrip, explores the journey of vertical AI applications, covering evaluation sets, user experience, new form factors, and scaling for India’s multilingual, mobile-first audience.\n\nSanjay Mohan, Group Chief Technology Officer, MakeMyTrip",
+    "Moderator": "nan",
+    "Session duration (mins)": "25",
+    "Session Time From (IST)": "02:55:00",
+    "Session Time To (IST)": "03:20:00"
+  },
+  {
+    "Day": "Day 01",
+    "Venue": "Harmony",
+    "Session format": "Panel Discussion",
+    "Session type": "Sponsored",
+    "Session Name": "Panel Discussion\n\nAI in enterprise: hype v/s reality\nAs AI reshapes every facet of enterprise operations—from customer experience to\nproductivity—leaders face a critical question: how much of today’s AI promise\ntranslates into measurable business impact? Founders and investors separate signal\nfrom noise, exploring the true state of AI adoption, ROI, and readiness in the\nenterprise landscape.\n\nBala Gorthi, COO, Teleradiology Solutions (TRS)\nKhadim Batti, Co-founder & CEO, Whatfix\nRaghav Chandra, Co-founder & CPTO, Urban Company\n\nModerator: Pankaj Mitra, Partner, Bessemer Venture Partners\n",
+    "Moderator": "Ext Mod",
+    "Session duration (mins)": "40",
+    "Session Time From (IST)": "03:25:00",
+    "Session Time To (IST)": "04:05:00"
+  },
+  {
+    "Day": "Day 01",
+    "Venue": "Harmony",
+    "Session format": "Panel Discussion",
+    "Session type": "Editorial ",
+    "Session Name": "Panel Discussion\n\nIntelligence-driven Earth: The business case for geospatial AI\nAI and satellite data are transforming how businesses see our planet, from tracking crop yields and monitoring emissions to mitigating climate risks. As Earth observation intelligence reshapes industries like agriculture, insurance, logistics, and mining, India’s leading spacetech startups decode how companies can be both profitable and ‘planet-positive’.\n\nAnirudh Sharma, Co-founder & CEO, Digantara\nAwais Ahmed, Founder & CEO, Pixxel\nYashas Karanam, Co-founder & COO, Bellatrix Aerospace\n\nModerator: Kanishk Singh, Assistant Editor, YourStory",
+    "Moderator": "Kanishk",
+    "Session duration (mins)": "30",
+    "Session Time From (IST)": "04:15:00",
+    "Session Time To (IST)": "04:45:00"
+  },
+  {
+    "Day": "Day 01",
+    "Venue": "Harmony",
+    "Session format": "Keynote Address",
+    "Session type": "Editorial ",
+    "Session Name": "Keynote Address\n\nPre-seed: India’s most underserved asset class\nEveryone wants growth-stage unicorns, but India’s structural gap is at the pre-seed — limited institutional capital, over-reliance on angels, and broken discovery pipelines.\n\nAviral  Bhatnagar, Managing Partner, AJVC",
+    "Moderator": "nan",
+    "Session duration (mins)": "20",
+    "Session Time From (IST)": "04:50:00",
+    "Session Time To (IST)": "05:10:00"
+  },
+  {
+    "Day": "Day 01",
+    "Venue": "Harmony",
+    "Session format": "Keynote Address",
+    "Session type": "Sponsored",
+    "Session Name": "Keynote Address\n\nFair, fast, and human: Reimagining recruitment with AI agents\nRecruitment has long struggled to balance speed with fairness. As AI agents transform hiring through automation and data-driven insights, Adithyan RK of Hyring explores how transparency, human oversight, and ethical governance can make AI-driven recruitment both efficient and empathetic.\n\nAdithyan RK, Co-founder & CEO, Hyring Inc",
+    "Moderator": "nan",
+    "Session duration (mins)": "15",
+    "Session Time From (IST)": "05:15:00",
+    "Session Time To (IST)": "05:30:00"
+  },
+  {
+    "Day": "Day 01",
+    "Venue": "Harmony",
+    "Session format": "Panel Discussion",
+    "Session type": "Editorial ",
+    "Session Name": "Panel Discussion\n\nDoctor-on-cloud: Role of AI in critical to chronic care\nIndia faces a stark gap in healthcare access and doctor availability, and AI-powered diagnostics can bridge this divide by enabling faster, cheaper, and more accurate screenings, along with timely interventions. Hear from startups how scalable AI solutions, offered affordably, can make quality healthcare truly universal across Bharat.\n\nAnkur Jain, Co-founder, Jivi AI\nLaina Emmanuel, Co-founder & CEO, BrainSightAI\nDhruv Joshi, Co-founder & Global CEO, Cloudphysician\n\nModerator: Kanishk Singh, Assistant Editor, YourStory",
+    "Moderator": "Kanishk",
+    "Session duration (mins)": "30",
+    "Session Time From (IST)": "05:35:00",
+    "Session Time To (IST)": "06:05:00"
+  },
+  {
+    "Day": "Day 01",
+    "Venue": "Harmony",
+    "Session format": "Panel Discussion",
+    "Session type": "Editorial ",
+    "Session Name": "Panel Discussion\n\nAgentic AI and the new CX playbook \nAI agents are redefining how brands engage, assist, and retain customers — moving from scripted chatbots to intelligent, context-aware companions. As enterprises adopt agentic AI, the focus shifts from response speed to emotional intelligence, personalisation, and trust. Learn why brands need to find a way to build this at scale.\n\nAnand Jain, Co-founder, CleverTap\nShivakumar Ganesan, Co-founder & CEO, Exotel\n\nModerator: Rishabh Mansur, Head - Content Categories, YourStory",
+    "Moderator": "Rishabh ",
+    "Session duration (mins)": "25",
+    "Session Time From (IST)": "06:10:00",
+    "Session Time To (IST)": "06:35:00"
+  }
+]
