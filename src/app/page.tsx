@@ -13,7 +13,7 @@ export default function Home() {
       className="min-h-screen bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url(/images/landing_background.png)" }}
     >
-      <div className="min-h-screen flex items-center justify-center pt-16">
+      <div className="min-h-screen flex items-center justify-center pt-22">
         <div className="text-center text-white">
           <h1 className="text-4xl md:text-6xl font-semibold mb-4">YOUR QUICK GUIDE TO TECHSPARK</h1>
 
@@ -30,7 +30,7 @@ export default function Home() {
                   style={{ backgroundImage: "url(/images/button_frame.png)" }}
                 />
                 <div className="relative flex items-center justify-center h-full">
-                  <span className="text-3xl font-medium text-white drop-shadow-lg">
+                  <span className="text-4xl font-medium text-white drop-shadow-lg">
                     {button.name}
                   </span>
                 </div>

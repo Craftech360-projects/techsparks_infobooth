@@ -9,7 +9,7 @@ interface Session {
   "Session format": string;
   "Session type": string;
   "Session Name": string;
-  Moderator: string;
+  Speaker: string;
   "Session duration (mins)": string;
   "Session Time From (IST)": string;
   "Session Time To (IST)": string;
@@ -66,7 +66,9 @@ export default function AgendaPage() {
           setSessions(combinedSessions);
         } else {
           // Fetch single venue data
-          const res = await fetch(`/data/agenda/${selectedDay}-${selectedHall}.json`);
+          const res = await fetch(
+            `/data/agenda/${selectedDay}-${selectedHall}.json`
+          );
           const data = await res.json();
           setSessions(data);
         }
@@ -143,7 +145,7 @@ export default function AgendaPage() {
       {/* Custom Scrollbar Track */}
       <div
         ref={trackRef}
-        className="fixed right-16 top-28 bottom-16 w-[18px] bg-[#D9D9D9]/10 border border-white z-50"
+        className="fixed right-43 top-62 bottom-28 w-[18px] bg-[#D9D9D9]/10 border border-white z-50"
       >
         {/* Custom Scrollbar Thumb */}
         <div
@@ -168,7 +170,7 @@ export default function AgendaPage() {
               <button
                 key={day.id}
                 onClick={() => setSelectedDay(day.id)}
-                className="relative transition-colors duration-300 rounded-lg"
+                className="relative transition-colors duration-300"
                 style={{
                   backgroundImage:
                     selectedDay === day.id
@@ -186,13 +188,13 @@ export default function AgendaPage() {
                   minHeight: "70px",
                   maxHeight: "70px",
                   color: "#FFFFFF",
-                  fontSize: "26px",
-                  fontWeight: "600",
+                  fontSize: "30px",
+                  fontWeight: "500",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
                   boxSizing: "border-box",
-                  borderRadius: "16px"
+                  borderRadius: selectedDay === day.id ? "10px" : "6px",
                 }}
               >
                 {day.label}
@@ -201,7 +203,7 @@ export default function AgendaPage() {
           </div>
 
           {/* Hall Buttons */}
-          <div className="flex gap-4 mb-8">
+          <div className="flex gap-4 mb-10">
             {halls.map((hall) => {
               const isDisabled = hall.id === "strategy" && !isStrategyAvailable;
               return (
@@ -209,7 +211,9 @@ export default function AgendaPage() {
                   key={hall.id}
                   onClick={() => !isDisabled && setSelectedHall(hall.id)}
                   disabled={isDisabled}
-                  className={`relative px-6 py-3 text-2xl font-medium transition-colors duration-300 ${isDisabled ? 'cursor-not-allowed opacity-50' : ''}`}
+                  className={`relative text-3xl font-medium transition-colors duration-300 ${
+                    isDisabled ? "cursor-not-allowed opacity-50" : ""
+                  }`}
                   style={{
                     backgroundImage:
                       selectedHall === hall.id
@@ -217,12 +221,21 @@ export default function AgendaPage() {
                         : "url(/images/button_frame.png)",
                     backgroundColor:
                       selectedHall === hall.id ? "#FF0000" : "transparent",
-                    backgroundSize: "contain",
+                    backgroundSize: "100% 100%",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
-                    minWidth: "180px",
-                    borderRadius: selectedHall === hall.id ? "16px" : "16px",
+                    width: "240px",
+                    height: "70px",
+                    minWidth: "240px",
+                    maxWidth: "240px",
+                    minHeight: "70px",
+                    maxHeight: "70px",
                     color: "#FFFFFF",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    boxSizing: "border-box",
+                    borderRadius: selectedHall === hall.id ? "10px" : "6px",
                   }}
                 >
                   {hall.label}
@@ -237,15 +250,22 @@ export default function AgendaPage() {
               {/* Sessions */}
               <div className="space-y-8 mr-52">
                 {sessions.map((session, index) => {
-                  const timeFrom = session["Session Time From (IST)"].substring(0, 5);
-                  const timeTo = session["Session Time To (IST)"].substring(0, 5);
+                  const timeFrom = session["Session Time From (IST)"].substring(
+                    0,
+                    5
+                  );
+                  const timeTo = session["Session Time To (IST)"].substring(
+                    0,
+                    5
+                  );
 
                   return (
                     <div
                       key={index}
                       className="relative rounded-lg p-[2px]"
                       style={{
-                        background: "linear-gradient(to right, #ff0000, #FFFFFF)",
+                        background:
+                          "linear-gradient(to right, #ff0000, #FFFFFF)",
                       }}
                     >
                       <div
@@ -255,63 +275,45 @@ export default function AgendaPage() {
                         }}
                       >
                         {/* Session Content */}
-                        <div className="flex justify-between items-start mb-3">
+                        <div className="flex justify-between items-start">
                           <div className="flex-1">
-                            <div className="flex items-center gap-3 mb-2">
+                            <div className="flex items-center gap-3">
                               <h3
-                                className="text-2xl font-bold"
-                                style={{ color: "#FFFFFF" }}
+                                className="font-bold"
+                                style={{ color: "#FFFFFF", fontSize: "32px" }}
                               >
-                                {session["Session Name"]}
+                                {session["Session format"]}
                               </h3>
-
-                              {/* Session Format Badge */}
-                              {/* <span
-                                className="px-3 py-1 rounded text-sm font-medium"
-                                style={{
-                                  backgroundColor: "#FF0000",
-                                  color: "#FFFFFF",
-                                }}
-                              > */}
-                                {/* {session["Session format"]} */}
-                              {/* </span> */}
 
                               {/* Venue Badge (only for Others view) */}
                               {selectedHall === "others" && (
                                 <span
-                                  className="px-3 py-1 rounded text-sm font-medium"
+                                  className="px-3 py-1 rounded font-medium"
                                   style={{
                                     backgroundColor: "#FFFFFF",
                                     color: "#000000",
+                                    fontSize: "22px",
                                   }}
                                 >
-                                  {session.Venue}
+                                  Venue: {session.Venue}
                                 </span>
                               )}
                             </div>
 
                             {/* Moderator */}
-                            {session.Moderator && session.Moderator !== "nan" && (
-                              <p
-                                className="text-sm italic"
-                                style={{ color: "#FFFFFF" }}
-                              >
-                                Moderator: {session.Moderator}
-                              </p>
-                            )}
                           </div>
 
                           {/* Time */}
                           <div className="text-right ml-4">
                             <div
-                              className="text-xl font-bold whitespace-nowrap"
-                              style={{ color: "#FFFFFF" }}
+                              className="font-bold whitespace-nowrap"
+                              style={{ color: "#FFFFFF", fontSize: "28px" }}
                             >
                               {timeFrom} - {timeTo}
                             </div>
                             <div
-                              className="text-sm italic"
-                              style={{ color: "#FFFFFF" }}
+                              className="italic"
+                              style={{ color: "#FFFFFF", fontSize: "24px" }}
                             >
                               ({session["Session duration (mins)"]} mins)
                             </div>
@@ -319,8 +321,13 @@ export default function AgendaPage() {
                         </div>
 
                         {/* Session Type */}
-                        <div className="text-sm" style={{ color: "#ffffffff"}}>
-                          {session["Session type"]}
+                        <div style={{ color: "#ffffffff", fontSize: "26px", width: "1400px", fontWeight: "500", whiteSpace: "pre-line"}}>
+                          {session["Session Name"]}
+                          {session.Speaker && session.Speaker !== "nan" && (
+                            <p style={{ color: "#FFFFFF", fontSize: "26px", fontWeight: "600", whiteSpace: "pre-line" }}>
+                              {session.Speaker}
+                            </p>
+                          )}
                         </div>
                       </div>
                     </div>

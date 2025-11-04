@@ -9,6 +9,17 @@ export default function PartnersPage() {
   const contentRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
 
+  // Partner images
+  const mainPartners = Array.from({ length: 12 }, (_, i) => ({
+    src: `/images/partners/partners_${i + 1}.png`,
+    alt: `Partner ${i + 1}`
+  }));
+
+  const ecosystemPartners = Array.from({ length: 2 }, (_, i) => ({
+    src: `/images/partners/ecosystem_partners/ecosystem_partners_${i + 1}.png`,
+    alt: `Ecosystem Partner ${i + 1}`
+  }));
+
   // Handle scroll
   useEffect(() => {
     const content = contentRef.current;
@@ -68,7 +79,7 @@ export default function PartnersPage() {
       {/* Custom Scrollbar Track */}
       <div
         ref={trackRef}
-        className="fixed right-16 top-28 bottom-16 w-[18px] bg-[#D9D9D9]/10 border z-50"
+        className="fixed right-43 top-62 bottom-28 w-[18px] bg-[#D9D9D9]/10 border z-50"
         style={{ borderColor: '#FF0000' }}
       >
         {/* Custom Scrollbar Thumb */}
@@ -88,16 +99,76 @@ export default function PartnersPage() {
         <PageHeader title="PARTNERS" theme="light" />
 
         <div className="px-32 pb-8">
-          {/* Partners Image */}
-          <div className="mt-8">
-            <img
-              src="/images/partners_image.png"
-              alt="Partners and Sponsors"
-              className="w-full h-auto"
-            />
+          {/* Main Partners Section */}
+          <div className="mt-8 mr-52 space-y-6">
+            {mainPartners.map((partner, index) => (
+              <div
+                key={partner.src}
+                className="partner-slide-in opacity-0"
+                style={{
+                  animationDelay: `${index * 0.15}s`
+                }}
+              >
+                <img
+                  src={partner.src}
+                  alt={partner.alt}
+                  className="w-full h-auto"
+                />
+              </div>
+            ))}
+          </div>
+
+          {/* Ecosystem Partners Section */}
+          <div className="mt-16">
+            {/* Ecosystem Partners Title */}
+            <h2
+              className="text-5xl font-bold mb-8 partner-slide-in opacity-0"
+              style={{
+                color: '#000000',
+                animationDelay: `${mainPartners.length * 0.15}s`
+              }}
+            >
+              ECO-SYSTEM PARTNERS
+            </h2>
+
+            <div className="space-y-6">
+              {ecosystemPartners.map((partner, index) => (
+                <div
+                  key={partner.src}
+                  className="partner-slide-in opacity-0"
+                  style={{
+                    animationDelay: `${(mainPartners.length + 1 + index) * 0.15}s`
+                  }}
+                >
+                  <img
+                    src={partner.src}
+                    alt={partner.alt}
+                    className="w-full h-auto"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
+
+      {/* Slide-in Animation Styles */}
+      <style jsx>{`
+        @keyframes slideInUp {
+          from {
+            transform: translateY(50px);
+            opacity: 0;
+          }
+          to {
+            transform: translateY(0);
+            opacity: 1;
+          }
+        }
+
+        .partner-slide-in {
+          animation: slideInUp 0.8s ease-out forwards;
+        }
+      `}</style>
     </div>
   );
 }

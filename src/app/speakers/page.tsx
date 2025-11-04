@@ -80,7 +80,7 @@ export default function SpeakersPage() {
       {/* Custom Scrollbar Track */}
       <div
         ref={trackRef}
-        className="fixed right-16 top-28 bottom-16 w-[18px] bg-[#D9D9D9]/10 border border-white z-50"
+        className="fixed right-43 top-62 bottom-28 w-[18px] bg-[#D9D9D9]/10 border border-white z-50"
       >
         {/* Custom Scrollbar Thumb */}
         <div
@@ -100,7 +100,7 @@ export default function SpeakersPage() {
 
         <div className="min-h-screen px-32 pb-8">
           {/* Speakers Grid */}
-          <div className="mt-8">
+          <div className="mt-8 mr-52">
             <div className="grid grid-cols-5 gap-0">
               {speakerImages.map((filename, index) => (
                 <div
