@@ -105,8 +105,10 @@ export default function SpeakersPage() {
               {speakerImages.map((filename, index) => (
                 <div
                   key={index}
-                  className="relative aspect-square"
-                  
+                  className="relative aspect-square speaker-slide-in opacity-0"
+                  style={{
+                    animationDelay: `${index * 0.15}s`
+                  }}
                 >
                   <Image
                     src={`/images/speakers/${filename}`}
@@ -121,6 +123,24 @@ export default function SpeakersPage() {
           </div>
         </div>
       </div>
+
+      {/* Slide-in Animation Styles */}
+      <style jsx>{`
+        @keyframes slideInUp {
+          from {
+            transform: translateY(50px);
+            opacity: 0;
+          }
+          to {
+            transform: translateY(0);
+            opacity: 1;
+          }
+        }
+
+        .speaker-slide-in {
+          animation: slideInUp 0.8s ease-out forwards;
+        }
+      `}</style>
     </div>
   );
 }

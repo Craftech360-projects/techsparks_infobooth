@@ -321,7 +321,7 @@ export default function AgendaPage() {
                         </div>
 
                         {/* Session Type */}
-                        <div style={{ color: "#ffffffff", fontSize: "26px", width: "1400px", fontWeight: "500", whiteSpace: "pre-line"}}>
+                        <div style={{ color: "#ffffffff", fontSize: "26px", width: "1000px", fontWeight: "500", whiteSpace: "pre-line"}}>
                           {session["Session Name"]}
                           {session.Speaker && session.Speaker !== "nan" && (
                             <p style={{ color: "#FFFFFF", fontSize: "26px", fontWeight: "600", whiteSpace: "pre-line" }}>

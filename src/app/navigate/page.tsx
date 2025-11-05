@@ -5,7 +5,7 @@ import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 
 export default function NavigatePage() {
-  const [selectedHall, setSelectedHall] = useState('aura');
+  const [selectedHall, setSelectedHall] = useState('ground');
 
   // Image dimensions (actual size from the files)
   const IMAGE_WIDTH = 9362;
@@ -34,10 +34,8 @@ export default function NavigatePage() {
   const imageContainerRef = useRef<HTMLDivElement>(null);
 
   const halls = [
-    { id: 'aura', label: 'Aura Hall', map: '/images/maps/aura-hall.png' },
-    { id: 'harmony', label: 'Harmony Hall', map: '/images/maps/harmony-hall.png' },
-    { id: 'azure', label: 'Azure Hall', map: '/images/maps/azure-hall.png' },
-    { id: 'strategy', label: 'Strategy Hall', map: '/images/maps/strategy-hall.png' },
+    { id: 'ground', label: 'Ground Floor', map: '/images/maps/ground_floor.png' },
+    { id: 'first', label: 'First Floor', map: '/images/maps/first_floor.png' },
   ];
 
   // Helper function to constrain scale
