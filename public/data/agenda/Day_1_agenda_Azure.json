@@ -1,0 +1,36 @@
+[
+  {
+    "start_time": "02:30:00",
+    "end_time": "03:00:00",
+    "session_duration": "30",
+    "stage": "Azure",
+    "program": "Masterclass",
+    "title": "Building for the agentic future: How startups can win with enterprise-ready AI",
+    "description": "Join Salim Naim (Microsoft) for a masterclass on building agentic AI solutions that are ready for the enterprise—and the future. Discover how Microsoft’s innovations in agentic AI and Foundry can help your startup scale, access enterprise customers, and stay ahead of the curve. Salim will share real-world stories from both B2B and B2C startups, demystify what it takes to succeed in the agentic web era, and offer practical guidance on integration, governance, and monetization. This is not just a presentation—it’s a conversation. Bring your questions and learn how to unlock new opportunities with Microsoft’s AI stack.",
+    "speaker": [
+      {
+        "name": "Salim Naim",
+        "designation": "Director of AI, Microsoft Global Black Belt, Asia."
+      }
+    ]
+  },
+  {
+    "start_time": "03:30:00",
+    "end_time": "04:30:00",
+    "session_duration": "60",
+    "stage": "Azure",
+    "program": "Masterclass",
+    "title": "The economy of AI: Cost, speed, and quality triangle in LLM development",
+    "description": "As AI systems grow larger and more capable, efficiency is becoming their greatest challenge. Groq’s masterclass at TechSparks 2025 will explore how to make intelligence faster, leaner, and more sustainable.",
+    "speaker": [
+      {
+        "name": " Amar Singh",
+        "designation": "GTM India Lead, Groq "
+      },
+      {
+        "name": "Debjyoti Biswas",
+        "designation": "AI Solutions Architect, Groq"
+      }
+    ]
+  }
+]

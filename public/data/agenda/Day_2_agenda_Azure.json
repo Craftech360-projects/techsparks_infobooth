@@ -1,0 +1,41 @@
+[
+  {
+    "start_time": "02:30:00",
+    "end_time": "03:00:00",
+    "session_duration": "30",
+    "stage": "Azure",
+    "program": "Masterclass",
+    "title": "Cracking scale: Builder secrets with Meta Tech",
+    "description": "In an age where AI and intelligent technology are reshaping every industry, success starts with developing human capabilities. Join Professor Nishit Narang as he explores how organizations can unlock human potential, bridge the skills gap, and prepare teams to excel alongside AI. Discover strategies to foster adaptability, lifelong learning, and digital curiosity—and learn how to future-proof your workforce for the new world of intelligent transformation.",
+    "speaker": {
+      "name": "Nayani Nasa",
+      "designation": "India Lead - Tech Provider Ecosystem, Meta"
+    }
+  },
+  {
+    "start_time": "03:30:00",
+    "end_time": "04:00:00",
+    "session_duration": "30",
+    "stage": "Azure",
+    "program": "Masterclass",
+    "title": "The Skill Code: Empowering People for Intelligent Transformation",
+    "description": "In the age of AI, transformation starts with people—not just technology. Professor Nishit Narang of BITS Pilani (WILP) decodes how human skills, creativity, and adaptability can drive intelligent transformation across enterprises. Drawing from deep industry and academic experience, he explores how organizations can bridge the skill gap, foster continuous learning, and design AI-ready teams that thrive in change. Learn how to unlock “The Skill Code” to empower your workforce for the future of work.",
+    "speaker": {
+      "name": "Dr Nishit Narang",
+      "designation": "Group Head, Computer and Information Systems, BITS Pilani Work Integrated Learning Programmes"
+    }
+  },
+  {
+    "start_time": "04:30:00",
+    "end_time": "05:00:00",
+    "session_duration": "30",
+    "stage": "Azure",
+    "program": "Masterclass",
+    "title": "Beyond the click: Building conversations that convert",
+    "description": "Discover how brands are turning conversations into impact with Meta’s click-to-message ads. Learn creative best practices, targeting insights, and conversational strategies that move customers from intent to interaction, and every chat into measurable growth.",
+    "speaker": {
+      "name": "Rohant Shyam Rammohan",
+      "designation": "Lead - Partnerships, Business Messaging - India, Meta"
+    }
+  }
+]

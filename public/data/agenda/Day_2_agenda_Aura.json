@@ -1,0 +1,294 @@
+[
+  {
+    "start_time": "10:05:00",
+    "end_time": "10:35:00",
+    "session_duration": "30",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "Art of storytelling: How authentic narratives build trust, attract capital, and create loyal communities",
+    "description": "How can authentic storytelling serve as a powerful tool to build trust, attract capital, and nurture loyal communities? Kunal Kapoor, actor and co-founder of Ketto, shares insights from his entrepreneurial journey on translating purpose and passion into narratives that inspire action and drive impact.",
+    "speaker": [
+      {
+        "name": "Kunal Kapoor",
+        "designation": "Actor & Co-founder, Ketto"
+      }
+    ]
+  },
+  {
+    "start_time": "10:40:00",
+    "end_time": "10:55:00",
+    "session_duration": "15",
+    "stage": "Aura",
+    "program": "Keynote Address",
+    "title": "The VC’s compass: Resilience & reinvention in India’s AI decade",
+    "description": "From India’s SaaS revolution to the coming AI wave, investors are rethinking how they evaluate capital efficiency. Drawing from decades of backing India’s boldest entrepreneurs, Vani Kola of Kalaari Capital shares where the next decade of innovation is headed, and how investors and founders can align purpose, patience, and performance in the AI-first era.",
+    "speaker": [
+      {
+        "name": "Vani Kola",
+        "designation": "Managing Director, Kalaari Capital"
+      }
+    ]
+  },
+  {
+    "start_time": "11:00:00",
+    "end_time": "11:25:00",
+    "session_duration": "25",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "Powering India’s Web3 future with Binance: Innovation, skills, trust in digital finance",
+    "description": "As India advances towards Viksit Bharat, Web3 stands at the intersection of innovation, financial inclusion, and youth empowerment. Kushal Manupati of Binance explores how global blockchain innovation, financial literacy, and responsible adoption can shape a secure and future-ready digital economy.",
+    "speaker": {
+      "name": "Kushal Manupati",
+      "designation": "Growth and Operations Lead, South Asia, Binance"
+    }
+  },
+  {
+    "start_time": "11:30:00",
+    "end_time": "11:55:00",
+    "session_duration": "25",
+    "stage": "Aura",
+    "program": "Panel Discussion",
+    "title": "Crafting the tech adoption journey for MSMEs: The Tally playbook",
+    "description": "Discover the untold stories and secrets behind Tally's success in building high trust and solving for complexity to make Indian companies future-ready and digital-first.",
+    "speaker": [
+      {
+        "name": "Bharat Goenka",
+        "designation": "Vice Chairperson, Tally Solutions"
+      },
+      {
+        "name": "Nupur Goenka",
+        "designation": "Executive Director, Tally Solutions"
+      },
+      {
+        "name": "Tejas Goenka",
+        "designation": "Managing Director, Tally Solutions"
+      }
+    ]
+  },
+  {
+    "start_time": "12:00:00",
+    "end_time": "12:30:00",
+    "session_duration": "30",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "Sky’s the limit: Building a global drone hub from India",
+    "description": "India’s drone economy is taking flight. From agriculture and logistics to infrastructure, surveillance, and emergency response, the technology is reshaping industries and creating new opportunities for innovation and employment. Kinjarapu Rammohan Naidu, Hon’ble Minister of Civil Aviation, Government of India, joins Shradha Sharma, Founder & CEO, YourStory, to discuss India’s vision of becoming a global drone hub. The session will explore the government’s evolving policy framework, the push for domestic manufacturing and R&D, and how India can build a thriving, export-ready drone ecosystem that competes on the world stage.",
+    "speaker": [
+      {
+        "name": "Hon'ble Minister Shri Kinjarapu Rammohan Naidu",
+        "designation": "Union Minister of Civil Aviation, Govt of India"
+      }
+    ]
+  },
+  {
+    "start_time": "12:30:00",
+    "end_time": "12:55:00",
+    "session_duration": "25",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "Building Bharat: How AI is changing the fintech game",
+    "description": "AI is transforming how India moves money, making payments smarter, faster, and more inclusive. Gautam Aggarwal, Mastercard's South Asia Head, shares how the global payments leader is building intelligence and trust into every transaction, shaping a digital economy where innovation fuels inclusion and Bharat’s financial backbone grows stronger.",
+    "speaker": [
+      {
+        "name": "Gautam Aggarwal",
+        "designation": "President, India & South Asia, Mastercard"
+      }
+    ]
+  },
+  {
+    "start_time": "01:00:00",
+    "end_time": "01:15:00",
+    "session_duration": "15",
+    "stage": "Aura",
+    "program": "Keynote Address",
+    "title": "Future of Work and Leading in the Age of AI",
+    "description": "AI is not just transforming how we work—it’s redefining what it means to lead. In this thought-provoking keynote, Puneet Chandok unpacks how the rise of AI is reshaping organizations, decision-making and the very fabric of work. He will share powerful insights on what the future of work could look like, and how founders & leaders can navigate this new era—where human creativity and machine intelligence come together to unlock the next wave of innovation.",
+    "speaker": [
+      {
+        "name": "Puneet Chandok",
+        "designation": "President, Microsoft India & South Asia"
+      }
+    ]
+  },
+  {
+    "start_time": "02:00:00",
+    "end_time": "02:30:00",
+    "session_duration": "30",
+    "stage": "Aura",
+    "program": "Panel Discussion",
+    "title": "AI, Access, Ambition: How India builds the future of global apps",
+    "description": "India’s billion-user digital ecosystem is redefining the global app economy. With GenAI enabling hyper-personalised, multilingual, and voice-first experiences, developers are building for Bharat and scaling for the world. Learn from leaders helming India-first app ecosystems and solutions about how AI, India Stack, and design-for-diversity innovation are powering the next generation of globally competitive digital products.",
+    "speaker": [
+      {
+        "name": "Akis Evangelidis",
+        "designation": "Co-founder & President, India, Nothing"
+      },
+      {
+        "name": "Priya Narasimhan",
+        "designation": "CBO, Indus Appstore"
+      },
+      {
+        "name": "Rajendran Dandapani",
+        "designation": "Director of Technology, Zoho Corp."
+      },
+      {
+        "name": "Umesh Bude",
+        "designation": "CTO, Pocket Entertainment"
+      }
+    ]
+  },
+  {
+    "start_time": "02:35:00",
+    "end_time": "03:00:00",
+    "session_duration": "25",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "AI x blockchain: Empowering India’s next builders",
+    "description": "The convergence of AI and blockchain is leading to decentralised, intelligent systems for the world. Devika Mittal shares how India’s developer ecosystem is driving global innovation, and how Ava Labs is enabling this growth through open infrastructure, partnerships, and talent empowerment.",
+    "speaker": [
+      {
+        "name": "Devika Mittal",
+        "designation": "Regional Head, Ava Labs"
+      }
+    ]
+  },
+  {
+    "start_time": "03:05:00",
+    "end_time": "03:35:00",
+    "session_duration": "30",
+    "stage": "Aura",
+    "program": "Panel Discussion",
+    "title": "Investing in India’s global tech moment, powered by intelligence",
+    "description": "India’s next decade of innovation will be built through collaboration—between founders, investors, and nations. As the lines between data, AI, and finance blur, global partners are finding new ways to share opportunity and scale innovation responsibly. Discover how capital, technology, and partnerships can create seamless growth corridors.",
+    "speaker": [
+      {
+        "name": "Bruce Keith",
+        "designation": "CEO, InvestorAI"
+      },
+      {
+        "name": "Malini Dutt",
+        "designation": "Trade and Investment Commissioner, India, NSW"
+      }
+    ]
+  },
+  {
+    "start_time": "03:40:00",
+    "end_time": "04:00:00",
+    "session_duration": "20",
+    "stage": "Aura",
+    "program": "Lightning Talk",
+    "title": "The future of software development in the age of AI",
+    "description": "Address how generative AI, hyper-automation, and AI-driven Dev & Ops are changing the way software is built, reducing time-to-market and improving reliability. Discuss the rise of low-code/no-code platforms empowered by AI, enabling a new generation of citizen developers and changing the skill set required for software professionals.",
+    "speaker": {
+      "name": "Hemant Kamatgi",
+      "designation": "Vice President of Customer Experience Platforms, Ford Motor Company"
+    }
+  },
+  {
+    "start_time": "04:15:00",
+    "end_time": "04:40:00",
+    "session_duration": "25",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "Intelligence at scale: Building growth for a connected India",
+    "description": "As India’s digital economy scales, intelligence and infrastructure are redefining how growth is built. Arzan Singpurwalla and Praveen Sridhar explore how Meta and AWS are enabling builders and ISVs to power connected, conversational, and data-driven experiences that drive business transformation.",
+    "speaker": [
+      {
+        "name": "Arzan Singpurwalla",
+        "designation": "Lead Channel Partnerships, Business Messaging - India, Meta"
+      },
+      {
+        "name": "Praveen Sridhar",
+        "designation": "Director, Partnerships, AWS India"
+      }
+    ]
+  },
+  {
+    "start_time": "04:45:00",
+    "end_time": "05:30:00",
+    "session_duration": "45",
+    "stage": "Aura",
+    "program": "Panel Discussion",
+    "title": "Tokyo calling: A new launchpad for India’s startups",
+    "description": "As Indian startups expand globally, Japan is emerging as a powerful destination offering deep-tech collaboration, patient capital, and a thriving innovation ecosystem centred in Tokyo. Explores how founders can tap into opportunities in the country, leverage Tokyo Metropolitan Government’s (TMG) support initiatives, and build meaningful Indo-Japan partnerships for sustainable global growth.",
+    "speaker": [
+      {
+        "name": "Kiyoko Hashiba",
+        "designation": "Director for Global Promotion, Tokyo Metropolitan Government"
+      },
+      {
+        "name": "Muralidhar Somisetty",
+        "designation": "Founder, YogiFi"
+      },
+      {
+        "name": "Naoto Nakadate",
+        "designation": "Senior Director, Japan-India Startup Hub, JETRO"
+      },
+      {
+        "name": "Yoko Fukata",
+        "designation": "Director/Head of Sony Ventures India, Sony Ventures Corporation"
+      }
+    ]
+  },
+  {
+    "start_time": "05:35:00",
+    "end_time": "05:55:00",
+    "session_duration": "20",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "The speed layer: Real-time AI powering India’s fintech future",
+    "description": "India’s fintech ecosystem is on the brink of an AI-led leap, from predictive payments to real-time risk intelligence. In this high-level dialogue, Paytm and Groq leaders will discuss how ultra-fast inference and purpose-built infrastructure can power new business models, enhance trust and security, and set the foundation for a future where finance operates at the speed of intelligence.",
+    "speaker": [
+      {
+        "name": "Narendra Yadav",
+        "designation": "CBO, Sr. Vice President, Paytm"
+      },
+      {
+        "name": "Scott Albin",
+        "designation": "General Manager, APAC, Groq"
+      }
+    ]
+  },
+  {
+    "start_time": "06:00:00",
+    "end_time": "06:30:00",
+    "session_duration": "30",
+    "stage": "Aura",
+    "program": "Panel Discussion",
+    "title": "Building India's AI-powered digital infra: From payments to data at scale",
+    "description": "As India accelerates toward a $5-trillion digital economy, AI is redefining its national infrastructure, from payments and data centres to cloud and compute. Explore how India’s AI-powered digital backbone is evolving through open, interoperable, and sovereign-first frameworks. Leaders and experts will discuss how policy, innovation, and infrastructure investments can together drive inclusive, sustainable, and globally competitive AI growth.",
+    "speaker": [
+      {
+        "name": "Aniruddha Patwardhan",
+        "designation": "Head of Engineering at PhonePe"
+      },
+      {
+        "name": "Moiz Arsiwala",
+        "designation": "Co-founder & CTO, WorkIndia"
+      },
+      {
+        "name": "Venkat Ragothaman",
+        "designation": "Senior Director Of Engineering, Security & AI, NetApp"
+      }
+    ]
+  },
+  {
+    "start_time": "06:35:00",
+    "end_time": "07:00:00",
+    "session_duration": "25",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "Inside Zepto & the algorithm powering instant fulfilment",
+    "description": "Building India first tech, for India by Indians - How Zepto has built its rapid action in-store digital ecosystem, from order-picking to IoT-enabled shelving to barcode scanning, to automated restocking alerts, and fulfillment tracking. And what it does it take to build a profitable dark store in the age of AI and auto.",
+    "speaker": [
+      {
+        "name": "Kaivalya Vohra",
+        "designation": "Co-founder, Zepto"
+      },
+      {
+        "name": "Nikhil Mittal",
+        "designation": "CTO, Zepto"
+      }
+    ]
+  }
+]

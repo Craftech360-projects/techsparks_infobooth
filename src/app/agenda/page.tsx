@@ -22,7 +22,7 @@ interface Session {
 
 export default function AgendaPage() {
   const [selectedDay, setSelectedDay] = useState("day1");
-  const [selectedHall, setSelectedHall] = useState("main-hall");
+  const [selectedHall, setSelectedHall] = useState("aura");
   const [sessions, setSessions] = useState<Session[]>([]);
   const [thumbPosition, setThumbPosition] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
@@ -36,15 +36,17 @@ export default function AgendaPage() {
   ];
 
   const halls = [
-    { id: "main-hall", label: "Aura Hall" },
-    { id: "harmony", label: "Harmony Hall" },
+    { id: "aura", label: "Aura - Main Stage" },
+    { id: "harmony", label: "Harmony - Focus Stage" },
+    { id: "azure", label: "Azure - Masterclass Stage" },
   ];
 
   useEffect(() => {
     const fetchSessions = async () => {
       try {
         const dayNumber = selectedDay.replace("day", "");
-        const hallName = selectedHall === "main-hall" ? "Main_Hall" : "Harmony";
+        // Capitalize first letter of hall name to match file naming
+        const hallName = selectedHall.charAt(0).toUpperCase() + selectedHall.slice(1);
         const res = await fetch(
           `/data/agenda/Day_${dayNumber}_agenda_${hallName}.json`
         );
@@ -186,7 +188,7 @@ export default function AgendaPage() {
                 <button
                   key={hall.id}
                   onClick={() => setSelectedHall(hall.id)}
-                  className="relative text-3xl font-medium transition-colors duration-300"
+                  className="relative font-medium transition-colors duration-300"
                   style={{
                     backgroundImage:
                       selectedHall === hall.id
@@ -197,13 +199,14 @@ export default function AgendaPage() {
                     backgroundSize: "100% 100%",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
-                    width: "240px",
+                    width: "340px",
                     height: "70px",
-                    minWidth: "240px",
-                    maxWidth: "240px",
+                    minWidth: "340px",
+                    maxWidth: "340px",
                     minHeight: "70px",
                     maxHeight: "70px",
                     color: "#FFFFFF",
+                    fontSize: "28px",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",

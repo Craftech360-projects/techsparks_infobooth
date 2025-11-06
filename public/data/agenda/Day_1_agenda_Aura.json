@@ -3,8 +3,8 @@
     "start_time": "10:00:00",
     "end_time": "10:10:00",
     "session_duration": "10",
-    "stage": "Main Hall",
-    "program": "EMCEE Intro, Opening act, introducing SS",
+    "stage": "Aura",
+    "program": "OPENING ACT",
     "title": "",
     "description": "",
     "speaker": {
@@ -16,33 +16,35 @@
     "start_time": "10:10:00",
     "end_time": "10:15:00",
     "session_duration": "5",
-    "stage": "Main Hall",
-    "program": "Welcome Address",
+    "stage": "Aura",
+    "program": "Welcome Address:",
     "title": "Ushering India's AI revolution @ TechSparks",
     "description": "",
     "speaker": {
-      "name": "",
-      "designation": ""
+      "name": "Shradha Sharma",
+      "designation": "Founder & CEO, YourStory & The Bharat Project"
     }
   },
   {
     "start_time": "10:15:00",
     "end_time": "11:00:00",
     "session_duration": "45",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Fireside Chat",
     "title": "Tech-SparkX: Why now is the time for India to create global impact in AI and deeptech",
     "description": "Catch Mukesh Bansal in a freewheeling conversation on AI and deeptech R&D, science, innovation, and what it will take to bring bold leadership,and global mindset to India's AI ecosystem.",
-    "speaker": {
-      "name": "Mukesh Bansal",
-      "designation": "Founder & CEO, Nurix AI"
-    }
+    "speaker": [
+      {
+        "name": "Mukesh Bansal",
+        "designation": "Founder & CEO, Nurix AI"
+      }
+    ]
   },
   {
     "start_time": "11:00:00",
     "end_time": "11:10:00",
     "session_duration": "10",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Launch",
     "title": "Launch of Tech30",
     "description": "",
@@ -55,9 +57,9 @@
     "start_time": "11:10:00",
     "end_time": "11:20:00",
     "session_duration": "10",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Announcement",
-    "title": "Celebrating 'Hello, GCC Dev Premier (League)' winners.",
+    "title": "Celebrating 'Hello, GCC Dev Premier (League);' winners.",
     "description": "Co-presented by Snowflake",
     "speaker": {
       "name": "",
@@ -68,11 +70,11 @@
     "start_time": "11:25:00",
     "end_time": "12:10:00",
     "session_duration": "45",
-    "stage": "Main Hall",
-    "program": "Fireside Chat",
+    "stage": "Aura",
+    "program": "Panel Discussion",
     "title": "The AI founder DNA: What it takes to build in the AI era",
-    "description": "",
-    "speakers": [
+    "description": "AI is redefining what it means to be a founder. This session explores how today’s builders combine speed, experimentation, and model literacy with storytelling and ethics to create lasting impact. As models and infrastructure become commoditised, what truly builds defensibility — data loops, workflow depth, or trust? Discover the new DNA of founders shaping the AI-native startup era.",
+    "speaker": [
       {
         "name": "Dushyant Mishra",
         "designation": "Founder & CEO, Rapid Claims"
@@ -89,12 +91,12 @@
   },
   {
     "start_time": "12:20:00",
-    "end_time": "12:50:00",
-    "session_duration": "30",
-    "stage": "Main Hall",
+    "end_time": "12:45:00",
+    "session_duration": "25",
+    "stage": "Aura",
     "program": "Fireside Chat",
-    "title": "Bootstrapping to bell-ringing: IndiQube\u2019s journey beyond listing",
-    "description": "From bootstrapped beginnings to ringing the bell at NSE, IndiQube\u2019s journey is a prime example of the evolution of Indian startups. Learn how vision, discipline, and investor alignment helped build an enduring enterprise, and what the next phase of growth looks like in India\u2019s competitive real-estate-tech landscape.",
+    "title": "Bootstrapping to bell-ringing: IndiQube’s journey beyond listing",
+    "description": "From bootstrapped beginnings to ringing the bell at NSE, IndiQube’s journey is a prime example of the evolution of Indian startups. Learn how vision, discipline, and investor alignment helped build an enduring enterprise, and what the next phase of growth looks like in India’s competitive real-estate-tech landscape.",
     "speaker": [
       {
         "name": "Meghna Agarwal",
@@ -114,10 +116,10 @@
     "start_time": "12:50:00",
     "end_time": "13:15:00",
     "session_duration": "25",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Panel Discussion",
     "title": "India's next-gen tech stack: Engineering intelligence for a billion users",
-    "description": "AI is changing the art of user journey\u2014evolving from static customer profiles to dynamic, intent-based personalization for every user. How are companies leveraging technology, design, and infrastructure tools to create seamless, intelligent digital experiences?",
+    "description": "AI is changing the art of user journey—evolving from static customer profiles to dynamic, intent-based personalization for every user. How are companies leveraging technology, design, and infrastructure tools to create seamless, intelligent digital experiences?",
     "speaker": [
       {
         "name": "Mohit Saxena",
@@ -130,26 +132,13 @@
     ]
   },
   {
-    "start_time": "13:15:00",
-    "end_time": "14:00:00",
-    "session_duration": "45",
-    "stage": "",
-    "program": "Lunch Break",
-    "title": "",
-    "description": "",
-    "speaker": {
-      "name": "",
-      "designation": ""
-    }
-  },
-  {
-    "start_time": "14:00:00",
-    "end_time": "14:30:00",
+    "start_time": "02:00:00",
+    "end_time": "02:30:00",
     "session_duration": "30",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Panel Discussion",
     "title": "Intelligence in motion: Building AI-ready businesses",
-    "description": "As enterprises race to become AI-native, CTOs face the challenge of connecting data, models, and decision-making at scale. Hear India\u2019s top technology leaders as they explore how data cloud architectures, governance, and real-time intelligence are powering the next generation of AI-first enterprises.",
+    "description": "As enterprises race to become AI-native, CTOs face the challenge of connecting data, models, and decision-making at scale. Hear India’s top technology leaders as they explore how data cloud architectures, governance, and real-time intelligence are powering the next generation of AI-first enterprises.",
     "speaker": [
       {
         "name": "Balaji Thiagarajan",
@@ -170,10 +159,10 @@
     ]
   },
   {
-    "start_time": "14:30:00",
-    "end_time": "14:35:00",
+    "start_time": "02:30:00",
+    "end_time": "02:35:00",
     "session_duration": "5",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Launch",
     "title": "Launching AI for Good Hackathon",
     "description": "Co-presented by Snowflake",
@@ -183,39 +172,39 @@
     }
   },
   {
-    "start_time": "14:40:00",
-    "end_time": "15:10:00",
+    "start_time": "02:40:00",
+    "end_time": "03:10:00",
     "session_duration": "30",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Panel Discussion",
     "title": "Intelligent health: Building the future of care with AI",
-    "description": "AI is revolutionising how India experiences healthcare \u2014 from diagnostics to last-mile accessibility and at-home testing. But building AI-native health startups requires more than algorithms; it\u2019s about trust and impact. In this session, leading healthtech founders decode what it takes to embed AI at the core to scale care that\u2019s accessible, affordable, and personal.",
+    "description": "AI is revolutionising how India experiences healthcare — from diagnostics to last-mile accessibility and at-home testing. But building AI-native health startups requires more than algorithms; it’s about trust and impact. In this session, leading healthtech founders decode what it takes to embed AI at the core to scale care that’s accessible, affordable, and personal.",
     "speaker": [
       {
         "name": "Aayush Rai",
         "designation": "Co-founder & CEO, Inito"
       },
       {
-        "name": "Dhruv Gupta,",
+        "name": "Dhruv Gupta",
         "designation": "Co-founder, Orange Health Labs"
-      },
-      {
-        "name": "Swati Murarka",
-        "designation": "Principal, Bertelsmann India Investments"
       },
       {
         "name": "Priyadarshi Mohapatra",
         "designation": "Founder & CEO, CureBay"
+      },
+      {
+        "name": "Swati Murarka",
+        "designation": "Principal, Bertelsmann India Investments"
       }
     ]
   },
   {
-    "start_time": "15:15:00",
-    "end_time": "15:40:00",
+    "start_time": "03:15:00",
+    "end_time": "03:40:00",
     "session_duration": "25",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Fireside Chat",
-    "title": "Building innovation: Atlassian\u2019s playbook for the future",
+    "title": "Building innovation: Atlassian’s playbook for the future",
     "description": "Paranth Thiruvengadam and Shamik Sharma from Atlassian join Shradha Sharma to explore how Atlassian is deepening its commitment to India by investing in world-class teams across engineering, product, and design. From its bold bets on AI and the future of work with Rovo, to shaping delightful developer experiences and powering collaboration for teams worldwide, discover how Atlassian is driving the next wave of innovation from India.",
     "speaker": [
       {
@@ -229,39 +218,26 @@
     ]
   },
   {
-    "start_time": "15:45:00",
-    "end_time": "16:00:00",
+    "start_time": "03:45:00",
+    "end_time": "04:00:00",
     "session_duration": "15",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Keynote Address",
     "title": "Powering startup innovation: Hybrid cloud done right",
-    "description": "Early-stage startups face challenges like data silos, infrastructure gaps, and high AI costs. Vasanthi Ramesh of NetApp India explores how hybrid cloud AI data management empowers startups with unified data access, automation, and scalable pipelines \u2014 boosting AI accuracy, reliability, and innovation speed for lean, high-growth teams.",
+    "description": "Early-stage startups face challenges like data silos, infrastructure gaps, and high AI costs. Vasanthi Ramesh of NetApp India explores how hybrid cloud AI data management empowers startups with unified data access, automation, and scalable pipelines — boosting AI accuracy, reliability, and innovation speed for lean, high-growth teams.",
     "speaker": {
       "name": "Vasanthi Ramesh",
-      "designation": "Vice President Of Engineering & Engineering Site leader, NetApp India"
+      "designation": "Vice President of Engineering & Engineering Site leader, NetApp India"
     }
   },
   {
-    "start_time": "16:00:00",
-    "end_time": "16:15:00",
-    "session_duration": "15",
-    "stage": "",
-    "program": "Tea Break",
-    "title": "",
-    "description": "",
-    "speaker": {
-      "name": "",
-      "designation": ""
-    }
-  },
-  {
-    "start_time": "16:15:00",
-    "end_time": "16:45:00",
+    "start_time": "04:15:00",
+    "end_time": "04:45:00",
     "session_duration": "30",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Panel Discussion",
-    "title": "The resilience playbook: Scaling in India\u2019s lending landscape",
-    "description": "What does it take to build a lending business in one of India\u2019s most competitive and regulated markets? Several founders have gone from idea to institution navigating credit risk, compliance shifts, and technological reinvention along the way. Hear unfiltered stories of grit, pivots, and perseverance, as they decode what it really takes to build, scale, and sustain trust in India\u2019s fast-evolving lending ecosystem.",
+    "title": "The resilience playbook: Scaling in India’s lending landscape",
+    "description": "What does it take to build a lending business in one of India’s most competitive and regulated markets? Several founders have gone from idea to institution navigating credit risk, compliance shifts, and technological reinvention along the way. Hear unfiltered stories of grit, pivots, and perseverance, as they decode what it really takes to build, scale, and sustain trust in India’s fast-evolving lending ecosystem.",
     "speaker": [
       {
         "name": "Anuj Kacker",
@@ -282,23 +258,23 @@
     ]
   },
   {
-    "start_time": "16:50:00",
-    "end_time": "17:05:00",
+    "start_time": "04:50:00",
+    "end_time": "05:05:00",
     "session_duration": "15",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Keynote Address",
     "title": "Connect, converse, convert: The digital commerce wave of tomorrow",
-    "description": "Messaging has evolved from conversation to conversion, reshaping how businesses connect and sell. Arzan Singpurwalla of Meta India shares how platforms like WhatsApp are enabling India\u2019s digital economy to thrive through conversational commerce, leveraging the power of AI, automation, and messaging \u2014 one chat at a time.",
+    "description": "Messaging has evolved from conversation to conversion, reshaping how businesses connect and sell. Arzan Singpurwalla of Meta India shares how platforms like WhatsApp are enabling India’s digital economy to thrive through conversational commerce, leveraging the power of AI, automation, and messaging — one chat at a time.",
     "speaker": {
       "name": "Arzan Singpurwalla",
       "designation": "Lead Channel Partnerships - Business Messaging - India, Meta"
     }
   },
   {
-    "start_time": "17:35:00",
-    "end_time": "18:05:00",
+    "start_time": "05:35:00",
+    "end_time": "06:05:00",
     "session_duration": "30",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Panel Discussion",
     "title": "The global career code: Why Japan is betting on Indian minds",
     "description": "As global careers evolve beyond borders, Japan is fast emerging as a destination for ambitious Indian professionals seeking growth, balance, and purpose. Learn how leading Japanese companies are empowering Indian talent to thrive, innovate, and shape the next chapter of international collaboration.",
@@ -318,42 +294,46 @@
     ]
   },
   {
-    "start_time": "18:10:00",
-    "end_time": "18:25:00",
+    "start_time": "06:10:00",
+    "end_time": "06:25:00",
     "session_duration": "15",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Keynote Address",
     "title": "Where Product + People power the future",
-    "description": "Technology may move fast, but people move it forward.",
+    "description": "Technology may move fast, but people move it forward. While AI and automation now dominate boardroom conversations, the real differentiator for enterprises lies in how effectively people and products work together to shape the future. Understand how organizations can balance technological innovation with human insight to deliver scalable, human-centric transformation.",
     "speaker": {
       "name": "Shubhradeep Guha",
       "designation": "Global Chief Delivery Officer, Publicis Sapient"
     }
   },
   {
-    "start_time": "18:30:00",
-    "end_time": "19:00:00",
+    "start_time": "06:30:00",
+    "end_time": "07:00:00",
     "session_duration": "30",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Fireside Chat",
-    "title": "Building for the AI age: Scaling India\u2019s next 1,000 startups",
-    "description": "India\u2019s next wave of startups won\u2019t be defined by valuation, but by velocity; how fast founders can learn, build, and adapt in an AI-first world. Rajan Anandan decodes how founders can navigate market shifts, capital cycles, technology, and talent to build resilient, high-impact companies that can compete globally while staying relevant locally.",
-    "speaker": {
-      "name": "Rajan Anandan",
-      "designation": "Managing Director, Peak XV & Surge"
-    }
+    "title": "Building for the AI age: Scaling India’s next 1,000 startups",
+    "description": "India’s next wave of startups won’t be defined by valuation, but by velocity; how fast founders can learn, build, and adapt in an AI-first world. Rajan Anandan decodes how founders can navigate market shifts, capital cycles, technology, and talent to build resilient, high-impact companies that can compete globally while staying relevant locally.",
+    "speaker": [
+      {
+        "name": "Rajan Anandan",
+        "designation": "Managing Director, Peak XV & Surge"
+      }
+    ]
   },
   {
-    "start_time": "19:00:00",
-    "end_time": "19:30:00",
+    "start_time": "07:00:00",
+    "end_time": "07:30:00",
     "session_duration": "30",
-    "stage": "Main Hall",
+    "stage": "Aura",
     "program": "Fireside Chat",
-    "title": "The startup state: Powering India\u2019s entrepreneurial decade",
-    "description": "Karnataka has long been the heart of India\u2019s innovation story. In this fireside, Minister Priyank Kharge shares how leadership, imagination, and inclusive policy are shaping the next decade of entrepreneurship, where young founders turn ideas into impact and innovation becomes the state\u2019s strongest form of nation building.",
-    "speaker": {
-      "name": "Hon'ble Minister Shri Priyank Kharge",
-      "designation": "Minister for Electronics, IT, BT, and Rural Development & Panchayat Raj, Govt. of Karnataka"
-    }
+    "title": "The startup state: Powering India’s entrepreneurial decade",
+    "description": "Karnataka has long been the heart of India’s innovation story. In this fireside, Minister Priyank Kharge shares how leadership, imagination, and inclusive policy are shaping the next decade of entrepreneurship, where young founders turn ideas into impact and innovation becomes the state’s strongest form of nation building.",
+    "speaker": [
+      {
+        "name": "Hon'ble Minister Shri Priyank Kharge",
+        "designation": "Minister for Electronics, IT, BT, and Rural Development & Panchayat Raj, Govt. of Karnataka "
+      }
+    ]
   }
 ]

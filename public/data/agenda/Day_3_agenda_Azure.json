@@ -1,0 +1,32 @@
+[
+  {
+    "start_time": "02:30:00",
+    "end_time": "03:00:00",
+    "session_duration": "30",
+    "stage": "Azure",
+    "program": "Masterclass",
+    "title": "Building a personal brand that outlives you",
+    "description": "In an age where attention is fleeting, how do you build a brand people actually trust? Jatin Saini, Founder of House of Creators and a LinkedIn Top Voice, shares how purpose-led storytelling creates influence that compounds over time.",
+    "speaker": [
+      {
+        "name": "Jatin Saini",
+        "designation": "Founder, House of Creators"
+      }
+    ]
+  },
+  {
+    "start_time": "03:30:00",
+    "end_time": "04:00:00",
+    "session_duration": "30",
+    "stage": "Azure",
+    "program": "Masterclass",
+    "title": "Tech for scale for SMEs’",
+    "description": "Small and Medium enterprises drive India's growth. They need simple yet powerful software products to stay competitive and grow at speed. SME focused software products that can truly scale and can address the diverse needs of millions of such businesses are need of the hour. Achieving and sustaining such scale requires a host of factors that need to be addressed with design and technology. Manjeet uncovers the product design nuances that are non-obvious at first but control a software product's ability to scale massively, with lessons from Tally's journey.",
+    "speaker": [
+      {
+        "name": "Manjeet Jindal",
+        "designation": "Associate Director- Engineering, Tally Solutions."
+      }
+    ]
+  }
+]

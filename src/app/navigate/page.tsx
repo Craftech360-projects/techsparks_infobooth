@@ -8,8 +8,8 @@ export default function NavigatePage() {
   const [selectedHall, setSelectedHall] = useState('ground');
 
   // Image dimensions (actual size from the files)
-  const IMAGE_WIDTH = 9362;
-  const IMAGE_HEIGHT = 6623;
+  const IMAGE_WIDTH = 8000;
+  const IMAGE_HEIGHT = 4500;
   const CONTAINER_WIDTH = 1300;
   const CONTAINER_HEIGHT = 700;
 
@@ -34,8 +34,8 @@ export default function NavigatePage() {
   const imageContainerRef = useRef<HTMLDivElement>(null);
 
   const halls = [
-    { id: 'ground', label: 'Ground Floor', map: '/images/maps/ground_floor.png' },
-    { id: 'first', label: 'First Floor', map: '/images/maps/first_floor.png' },
+    { id: 'ground', label: 'Ground Floor', map: '/images/maps/ground_floor_image.jpg' },
+    { id: 'first', label: 'First Floor', map: '/images/maps/first_floor_image.jpg' },
   ];
 
   // Helper function to constrain scale
@@ -261,8 +261,9 @@ export default function NavigatePage() {
                     alt={`${halls.find((h) => h.id === selectedHall)?.label} Map`}
                     width={IMAGE_WIDTH}
                     height={IMAGE_HEIGHT}
-                    quality={85}
+                    quality={100}
                     priority
+                    unoptimized
                     sizes="(max-width: 1300px) 100vw, 1300px"
                     className="object-contain"
                     style={{

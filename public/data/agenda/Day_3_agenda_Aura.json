@@ -1,0 +1,268 @@
+[
+  {
+    "start_time": "10:05:00",
+    "end_time": "10:35:00",
+    "session_duration": "30",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "Building the next big thing: How to win in India’s AI and deep tech decade",
+    "description": "An inside look at Ronnie Screwvala’s playbook for India’s next decade :- how founders can build scalable, frugal, and future-ready ventures at the intersection of AI, Deep Tech, and Bharat.",
+    "speaker": [
+      {
+        "name": "Ronnie Screwvala",
+        "designation": "Co-founder, upGrad & Swades Foundation"
+      }
+    ]
+  },
+  {
+    "start_time": "10:40:00",
+    "end_time": "11:05:00",
+    "session_duration": "25",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "Entertainment without borders: Building the world’s AI story empire",
+    "description": "As entertainment goes borderless, AI is reshaping how stories are created and consumed. Rohan Nayak of Pocket Entertainment is pioneering this shift with an AI-first platform that’s turning India’s storytelling strength into a global cultural export.",
+    "speaker": [
+      {
+        "name": "Rohan Nayak",
+        "designation": "Co-founder & CEO, Pocket Entertainment"
+      }
+    ]
+  },
+  {
+    "start_time": "11:35:00",
+    "end_time": "11:55:00",
+    "session_duration": "20",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "Local, digital, inclusive: Bridging the insurance gulf for Bharat",
+    "description": "India’s insurtech roadmap is extending its reach, broadening insurance access through innovative methods like mobile-first enrollment and AI-powered onboarding. Ish Babbar explores how platforms like Insurance Dekho are leveraging mobile penetration, internet accessibility, AI-driven tools, digitised agent distribution channels and more to make coverage simpler, smarter and more inclusive.",
+    "speaker": [
+      {
+        "name": "Ish Babbar",
+        "designation": "Co-founder & CTO, InsuranceDekho"
+      }
+    ]
+  },
+  {
+    "start_time": "12:00:00",
+    "end_time": "12:20:00",
+    "session_duration": "20",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "Speed meets scale: India’s moment in AI infrastructure",
+    "description": "India’s AI ambitions hinge on how fast intelligence can move at scale. Jonathan Ross, founder of Groq, brings global insights on building ultra-low-latency systems that balance speed, efficiency, and scale, defining what infrastructure readiness really means for India’s AI future.",
+    "speaker": [
+      {
+        "name": "Jonathan Ross",
+        "designation": "Founder & CEO, Groq"
+      }
+    ]
+  },
+  {
+    "start_time": "12:25:00",
+    "end_time": "12:55:00",
+    "session_duration": "30",
+    "stage": "Aura",
+    "program": "Panel Discussion",
+    "title": "GenAI engineering for the enterprise: From hype to high-impact systems",
+    "description": "Enterprises are done experimenting; the next frontier is building GenAI systems that truly move the needle. Discover how industry leaders are engineering scalable, secure, and compliant GenAI architectures that turn proof-of-concepts into production-grade impact. Raghuveer Subodha, EY GDS Consulting AI Engineering Leader, EY GDS",
+    "speaker": [
+      {
+        "name": "Kaushik Das",
+        "designation": "Managing Director, Catalyst Brands India"
+      },
+      {
+        "name": "Raghuveer Subodha",
+        "designation": "EY GDS Consulting AI Engineering Leader, EY GDS"
+      },
+      {
+        "name": "Rakesh Ravuri",
+        "designation": "CTO, Publicis Sapient"
+      }
+    ]
+  },
+  {
+    "start_time": "01:00:00",
+    "end_time": "01:15:00",
+    "session_duration": "15",
+    "stage": "Aura",
+    "program": "Keynote Address",
+    "title": "Trust at scale: An era of sustainable AI governance",
+    "description": "As generative and autonomous AI redefine industries, the responsibility to balance innovation with accountability and trust has never been greater. Kavita Viswanath of Toast explores how leaders can embed ethical AI practices into business models, ensure transparent and fair data usage, and adopt sustainable approaches that minimise environmental impact.",
+    "speaker": {
+      "name": "Kavita Viswanath",
+      "designation": "SVP & India Country Lead, Toast"
+    }
+  },
+  {
+    "start_time": "02:00:00",
+    "end_time": "02:25:00",
+    "session_duration": "25",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "The ride of a lifetime: Building speed, scale & spirit",
+    "description": "From navigating regulations to reinventing mobility, Rapido’s Aravind Sanka dives into how India’s ride-sharing story is being rewritten through speed, execution, and endurance - from bikes to cabs to food and travel, and what it really takes to scale for Bharat.",
+    "speaker": {
+      "name": "Aravind Sanka",
+      "designation": "Co-founder, Rapido"
+    }
+  },
+  {
+    "start_time": "02:30:00",
+    "end_time": "03:00:00",
+    "session_duration": "30",
+    "stage": "Aura",
+    "program": "Panel Discussion",
+    "title": "Aatmanirbhar AI: Building an independent intelligence economy",
+    "description": "For AI to truly serve Bharat, building sovereign capabilities is a strategic necessity. How can startups and investors come together to build the India AI stack—powered by our datasets and languages? Discover how capital and innovation can come together to shape India’s future, one that is global in scale yet distinctly desi in identity. Madhur Makkar, Principal, RTP Global",
+    "speaker": [
+      {
+        "name": "Hemant Mohapatra",
+        "designation": "Partner, Lightspeed India"
+      },
+      {
+        "name": "Nakul Kundra",
+        "designation": "Co-founder, Devnagri AI"
+      },
+      {
+        "name": "Madhur Makkar",
+        "designation": "Principal, RTP Global"
+      },
+      {
+        "name": "Vivek Raghavan",
+        "designation": "Co-founder, Sarvam AI"
+      }
+    ]
+  },
+  {
+    "start_time": "03:05:00",
+    "end_time": "03:35:00",
+    "session_duration": "30",
+    "stage": "Aura",
+    "program": "Panel Discussion",
+    "title": "Building the Next Reality: The Future of AR/VR in India",
+    "description": "From training and education to consumer wearables, XR is rapidly evolving. This panel explores how Indian hardware and software innovators are shaping the next phase of immersive technology — grounded, scalable, and built for real-world impact. Angad V Raghavan, COO, AutoVRse",
+    "speaker": [
+      {
+        "name": "Angad V Raghavan",
+        "designation": "COO, AutoVRse"
+      },
+      {
+        "name": "Noi Cecilia Oldne",
+        "designation": "Investor I Founding Partner, Visceral Capital"
+      },
+      {
+        "name": "Suraj Aiar",
+        "designation": "Founder & CEO, QWR"
+      }
+    ]
+  },
+  {
+    "start_time": "03:40:00",
+    "end_time": "04:00:00",
+    "session_duration": "20",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "Future of payments is predictive: How PayU uses AI to personalise checkouts",
+    "description": "PayU has been at the forefront of India’s payments evolution—UPI 2.0, tokenisation, and embedded finance—powering a frictionless, real-time payments ecosystem. What’s next? Discover how PayU is using AI to understand purchase intent, device behaviour, and preferred payment modes to create personalised, context-aware checkout experiences for millions of users.",
+    "speaker": [
+      {
+        "name": "Sagar Kumar",
+        "designation": "Vice president - Engineering, PayU"
+      }
+    ]
+  },
+  {
+    "start_time": "04:15:00",
+    "end_time": "04:40:00",
+    "session_duration": "25",
+    "stage": "Aura",
+    "program": "Panel Discussion",
+    "title": "Intelligence at speed: How cloud-native AI is redefining agility in business",
+    "description": "Businesses are striving to hit the sweet spot between AI’s enterprise potential and its practical deployment, reliability, and scalability. Experts from AWS, QualityKiosk, and Balancehero outline how tech businesses can use AI and cloud synergy to accelerate innovation, reduce risks, bring better governance, and deliver smarter customer experiences. Soumyajit Ghosh, COO, BalanceheroIndia",
+    "speaker": [
+      {
+        "name": "Abilash Narahari",
+        "designation": "VP - Head of Technology & Digital Natives, QualityKiosk Technologies"
+      },
+      {
+        "name": "Goutam Kurumella",
+        "designation": "Head of Startup Solutions Architecture, AWS"
+      },
+      {
+        "name": "Soumyajit Ghosh",
+        "designation": "COO, BalanceheroIndia"
+      }
+    ]
+  },
+  {
+    "start_time": "04:40:00",
+    "end_time": "04:50:00",
+    "session_duration": "10",
+    "stage": "Aura",
+    "program": "Announcement",
+    "title": "Celebrating AI builders of India",
+    "description": "",
+    "speaker": {
+      "name": "",
+      "designation": ""
+    }
+  },
+  {
+    "start_time": "04:55:00",
+    "end_time": "05:15:00",
+    "session_duration": "20",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "The AI stack revolution: Powering tomorrow’s insurance",
+    "description": "AI is transforming the insurance technology stack, and Acko is leading the charge. From underwriting and pricing to claims, fraud prevention, and customer engagement, the company’s AI-first approach is setting new benchmarks for digital insurance. Vishwanath Ramarao explains how intelligence is helping Acko shape the future of insurance.",
+    "speaker": {
+      "name": "Vishwanath Ramarao",
+      "designation": "Co-founder & CPTO, Acko"
+    }
+  },
+  {
+    "start_time": "05:20:00",
+    "end_time": "05:50:00",
+    "session_duration": "30",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "Scaling intelligence: How India’s enterprises are winning AI",
+    "description": "AI is redefining what scale, speed, and innovation mean for Indian enterprises. Teena Bhasin of Google Cloud discusses how leading companies are modernising their technology core and creating new business value through cloud-powered intelligence.",
+    "speaker": {
+      "name": "Teena Bhasin",
+      "designation": "Director - Google Cloud Consulting, Google Cloud India"
+    }
+  },
+  {
+    "start_time": "05:55:00",
+    "end_time": "06:25:00",
+    "session_duration": "30",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "From India for the world: Scaling digital-first consumer brands",
+    "description": "India’s consumer brands are no longer content with staying local. Powered by technology, supply-chain innovation, and cultural storytelling, these new companies are gearing up for the global markets. Find out how you can join the trend, building for digital-first audiences, driven by data, and designed for scale.",
+    "speaker": [
+      {
+        "name": "Ananth Narayanan",
+        "designation": "Founder & CEO, BRND.ME (formerly Mensa Brands)"
+      }
+    ]
+  },
+  {
+    "start_time": "06:30:00",
+    "end_time": "07:00:00",
+    "session_duration": "30",
+    "stage": "Aura",
+    "program": "Fireside Chat",
+    "title": "From Bharat to the world: Scaling India’s AI advantage",
+    "description": "India has a massive developer pool, a unique digital infrastructure, and big ambition. This session explores how to turn that advantage into global AI brands, not just local tools.",
+    "speaker": [
+      {
+        "name": "Vishal Dhupar",
+        "designation": "Managing Director, South Asia, NVIDIA"
+      }
+    ]
+  }
+]
