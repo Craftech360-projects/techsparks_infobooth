@@ -15,7 +15,7 @@ export default function Home() {
     >
       <div className="min-h-screen flex items-center justify-center pt-22">
         <div className="text-center text-white">
-          <h1 className="text-4xl md:text-6xl font-semibold mb-4">YOUR QUICK GUIDE TO TECHSPARK</h1>
+          <h1 className="text-4xl md:text-6xl font-semibold mb-4">YOUR QUICK GUIDE TO TECHSPARKS</h1>
 
           <div className="flex flex-row items-center justify-center gap-6 mt-12 flex-wrap">
             {buttons.map((button) => (

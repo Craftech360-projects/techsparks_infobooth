@@ -4,7 +4,7 @@ import { join } from 'path';
 
 export async function GET() {
   try {
-    const speakersDir = join(process.cwd(), 'public', 'images', 'speakers');
+    const speakersDir = join(process.cwd(), 'public', 'images', 'speaker_images');
     const files = await readdir(speakersDir);
 
     // Filter only image files (png, jpg, jpeg) and sort alphabetically

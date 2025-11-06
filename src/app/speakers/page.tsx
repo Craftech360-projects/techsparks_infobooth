@@ -111,7 +111,7 @@ export default function SpeakersPage() {
                   }}
                 >
                   <Image
-                    src={`/images/speakers/${filename}`}
+                    src={`/images/speaker_images/${filename}`}
                     alt={`Speaker ${filename}`}
                     fill
                     className="object-cover"

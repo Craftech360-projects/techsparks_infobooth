@@ -34,44 +34,16 @@ export default function AgendaPage() {
     { id: "aura", label: "Aura Hall" },
     { id: "harmony", label: "Harmony Hall" },
     { id: "azure", label: "Azure Hall" },
-    { id: "strategy", label: "Strategy Hall" },
-    { id: "others", label: "Others" },
   ];
-
-  // Check if Strategy hall is available for the selected day
-  const isStrategyAvailable = selectedDay === "day2";
 
   useEffect(() => {
     const fetchSessions = async () => {
       try {
-        if (selectedHall === "others") {
-          // Fetch and combine data from Boardroom, Paranda, and Poolside
-          const venues = ["boardroom", "paranda", "poolside"];
-          const fetchPromises = venues.map((venue) =>
-            fetch(`/data/agenda/${selectedDay}-${venue}.json`)
-              .then((res) => (res.ok ? res.json() : []))
-              .catch(() => [])
-          );
-
-          const results = await Promise.all(fetchPromises);
-          const combinedSessions = results.flat();
-
-          // Sort by time
-          combinedSessions.sort((a, b) => {
-            const timeA = a["Session Time From (IST)"];
-            const timeB = b["Session Time From (IST)"];
-            return timeA.localeCompare(timeB);
-          });
-
-          setSessions(combinedSessions);
-        } else {
-          // Fetch single venue data
-          const res = await fetch(
-            `/data/agenda/${selectedDay}-${selectedHall}.json`
-          );
-          const data = await res.json();
-          setSessions(data);
-        }
+        const res = await fetch(
+          `/data/agenda/${selectedDay}-${selectedHall}.json`
+        );
+        const data = await res.json();
+        setSessions(data);
       } catch (error) {
         console.error("Error loading agenda:", error);
         setSessions([]);
@@ -204,16 +176,11 @@ export default function AgendaPage() {
 
           {/* Hall Buttons */}
           <div className="flex gap-4 mb-10">
-            {halls.map((hall) => {
-              const isDisabled = hall.id === "strategy" && !isStrategyAvailable;
-              return (
+            {halls.map((hall) => (
                 <button
                   key={hall.id}
-                  onClick={() => !isDisabled && setSelectedHall(hall.id)}
-                  disabled={isDisabled}
-                  className={`relative text-3xl font-medium transition-colors duration-300 ${
-                    isDisabled ? "cursor-not-allowed opacity-50" : ""
-                  }`}
+                  onClick={() => setSelectedHall(hall.id)}
+                  className="relative text-3xl font-medium transition-colors duration-300"
                   style={{
                     backgroundImage:
                       selectedHall === hall.id
@@ -240,8 +207,7 @@ export default function AgendaPage() {
                 >
                   {hall.label}
                 </button>
-              );
-            })}
+            ))}
           </div>
 
           {/* Timeline and Sessions */}
@@ -284,20 +250,6 @@ export default function AgendaPage() {
                               >
                                 {session["Session format"]}
                               </h3>
-
-                              {/* Venue Badge (only for Others view) */}
-                              {selectedHall === "others" && (
-                                <span
-                                  className="px-3 py-1 rounded font-medium"
-                                  style={{
-                                    backgroundColor: "#FFFFFF",
-                                    color: "#000000",
-                                    fontSize: "22px",
-                                  }}
-                                >
-                                  Venue: {session.Venue}
-                                </span>
-                              )}
                             </div>
 
                             {/* Moderator */}
