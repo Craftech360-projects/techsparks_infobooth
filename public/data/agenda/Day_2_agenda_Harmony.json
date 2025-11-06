@@ -1,0 +1,257 @@
+[
+  {
+    "start_time": "11:30:00",
+    "end_time": "11:50:00",
+    "session_duration": "20",
+    "stage": "Harmony",
+    "program": "Fireside Chat",
+    "title": "Insurtech for all: Reimagining India\u2019s insurance future",
+    "description": "Insurers may be digitising quickly, but few have harnessed the full power of India\u2019s insurtech revolution: technology, regulation and ecosystem collaboration. Vishal Gupta of PhonePe Insurance decodes how innovation, when aligned with policy and purpose, transforms insurance from an annual obligation to an intelligent and proactive service for every Indian.",
+    "speaker": {
+      "name": "Vishal Gupta",
+      "designation": "CEO, PhonePe Insurance"
+    }
+  },
+  {
+    "start_time": "11:55:00",
+    "end_time": "12:10:00",
+    "session_duration": "15 ",
+    "stage": "Harmony",
+    "program": "Keynote Address",
+    "title": "Predict, prevent, protect: Building next-gen payment systems",
+    "description": "Predictive AI is reshaping digital payments\u2014anticipating failures, detecting fraud in real time, and powering resilient, self-correcting infrastructure. Satyajit Kanekar of 86400 explores how this is enhancing accuracy, uptime, and trust across fintech, telecom, and banking while ensuring regulatory compliance.",
+    "speaker": {
+      "name": "Satyajit Kanekar",
+      "designation": "Co-founder, 86400"
+    }
+  },
+  {
+    "start_time": "12:15:00",
+    "end_time": "12:20:00",
+    "session_duration": "",
+    "stage": "Harmony",
+    "program": "Panel Discussion",
+    "title": "Assisted to autonomous: AI and the future of fintech",
+    "description": "AI is transforming financial services from reactive to proactive, and now, autonomous. From credit underwriting and payment gateways to fraud detection and personalised portfolio management, fintech startups are leveraging intelligent, hyper-personalised systems to make finance smarter, more inclusive, and human for a billion Indians.",
+    "speaker": [
+      {
+        "name": "Abhishek Poddar",
+        "designation": "Co-founder & CEO, Plum"
+      },
+      {
+        "name": "Sandeep Jethwani",
+        "designation": "Co-founder, Dezerv"
+      },
+      {
+        "name": "Sanjay Tripathy",
+        "designation": "Co-founder & CEO, BRISKPE"
+      }
+    ]
+  },
+  {
+    "start_time": "12:50:00",
+    "end_time": "12:55:00",
+    "session_duration": "",
+    "stage": "Harmony",
+    "program": "Panel Discussion",
+    "title": "Deepening India's deeptech vision with robotics in real-world systems",
+    "description": "As AI transforms core industries, India stands at the cusp of an industrial leap. The challenge now is scaling AI beyond software into machines, factories, and orbits. Can India build the data, compute, and policy backbone to power intelligent manufacturing, robotics, and spacetech at scale?",
+    "speaker": [
+      {
+        "name": "Adrian Schmidt",
+        "designation": "Co-founder & CEO, Sarla Aviation"
+      },
+      {
+        "name": "Kaushik Mudda",
+        "designation": "Co-founder & CEO, Ethereal Machines"
+      },
+      {
+        "name": "Tushar Chhabra",
+        "designation": "Co-founder & CEO, CronAI"
+      }
+    ]
+  },
+  {
+    "start_time": "13:15:00",
+    "end_time": "14:00:00",
+    "session_duration": "45",
+    "stage": "",
+    "program": "Lunch",
+    "title": "",
+    "description": "",
+    "speaker": {
+      "name": "",
+      "designation": ""
+    }
+  },
+  {
+    "start_time": "14:00:00",
+    "end_time": "14:35:00",
+    "session_duration": "35",
+    "stage": "Harmony",
+    "program": "Panel Discussion",
+    "title": "India\u2019s deeptech decade: From jugaad to AI-first innovation",
+    "description": "India's next startup ecosystem growth won't be from consumer apps but from deeptech. However, these ventures need more than funding\u2014they need conviction, patience, and ecosystem backing. As India\u2019s future innovators tackle spacetech, energy, and advanced materials, VC investing must evolve to enable long-term growth.",
+    "speaker": [
+      {
+        "name": "Arjun Rao",
+        "designation": "General Partner, Speciale Invest"
+      },
+      {
+        "name": "Prabhu Rangarajan",
+        "designation": "Co-founder, M2P Fintech"
+      },
+      {
+        "name": "Vishesh Rajaram",
+        "designation": "Managing Partner, Speciale Invest"
+      }
+    ]
+  },
+  {
+    "start_time": "14:40:00",
+    "end_time": "14:55:00",
+    "session_duration": "15",
+    "stage": "Harmony",
+    "program": "Keynote Address",
+    "title": "Confrontation to compassion: Embedding empathy into debt collection with AI",
+    "description": "Traditionally, debt collection has been a transactional and confrontational process. Today, it is transforming into a collaborative and empathetic experience, powered by AI. Ananth Shroff, Founder & CEO of DPDzero, explores how AI and GenAI tools, from behavioural analysis to real-time sentiment adaptation, are enabling ethical, personalised, and human-centred repayment experiences that build trust, not tension.",
+    "speaker": {
+      "name": "Ananth Shroff",
+      "designation": "Founder, DPDzero"
+    }
+  },
+  {
+    "start_time": "15:00:00",
+    "end_time": "15:25:00",
+    "session_duration": "",
+    "stage": "Harmony",
+    "program": "Fireside Chat",
+    "title": "CEO's guide to building the world's most intelligent fashion platform",
+    "description": "AI is in vogue as Myntra CEO Nandita Sinha leads the charge to build an AI-powered, creator-led global fashion business that keeps winning. Here's how.",
+    "speaker": {
+      "name": "Nandita Sinha",
+      "designation": "CEO, Myntra"
+    }
+  },
+  {
+    "start_time": "15:30:00",
+    "end_time": "16:00:00",
+    "session_duration": "30",
+    "stage": "Harmony",
+    "program": "Panel Discussion",
+    "title": "Soil to satellite: Future of smart farming for India",
+    "description": "Empowered by AI and deeptech, India's agri economy is set to see yet another revolution. What will be the on-ground impact of GenAI, IoT, satellite imagery, and other innovations on this industry and India's farm output? Deep dive into how innovators are building a connected ecosystem to enhance farmer livelihoods through intelligent, scalable solutions.",
+    "speaker": [
+      {
+        "name": "Pratik Desai",
+        "designation": "Founder & CEO, Kissan AI"
+      },
+      {
+        "name": "Sreeshankar S. Nair",
+        "designation": "Founder & CEO, Brainwired"
+      }
+    ]
+  },
+  {
+    "start_time": "16:00:00",
+    "end_time": "16:15:00",
+    "session_duration": "15",
+    "stage": "",
+    "program": "Tea Break",
+    "title": "",
+    "description": "",
+    "speaker": {
+      "name": "",
+      "designation": ""
+    }
+  },
+  {
+    "start_time": "16:15:00",
+    "end_time": "16:30:00",
+    "session_duration": "15",
+    "stage": "Harmony",
+    "program": "Keynote Address",
+    "title": "Breaking the bottlenecks: Inside India\u2019s AI infrastructure struggle",
+    "description": "Every breakthrough AI model in India hits the same invisible walls -- bandwidth, throughput, and \u201cgood enough\u201d infrastructure. E2E Networks' Mohammed Imran, a pioneer in open-source cloud innovation, decodes how India can build systems that make world-class AI performance truly accessible.",
+    "speaker": {
+      "name": "Mohamed Imran K R",
+      "designation": "Co-Founder & CTO, E2E Networks Limited"
+    }
+  },
+  {
+    "start_time": "16:35:00",
+    "end_time": "17:05:00",
+    "session_duration": "30",
+    "stage": "Harmony",
+    "program": "Panel Discussion",
+    "title": "Making AI real: Where creativity meets intelligence and scale",
+    "description": "AI\u2019s real power lies not merely in models, but in marrying imagination with execution. From creative workflows to massive datasets and real-time decision engines, the future belongs to organisations that can effectively blend human inventiveness with scalable intelligence. This is how organisations can translate powerful AI models and future-forward ideas into real-world, operational products and services, and deliver value at industrial scale.",
+    "speaker": [
+      {
+        "name": "Mathangi Sri Ramachandran",
+        "designation": "Chief Data Officer, YUBI"
+      },
+      {
+        "name": "Rahul Regulapati",
+        "designation": "Founder, Galleri5 (acquired by Collective Artists)"
+      },
+      {
+        "name": "Samanyou Garg",
+        "designation": "Founder, Writesonic"
+      },
+      {
+        "name": "Vishal Virani",
+        "designation": "Co-founder & CEO, Rocket"
+      }
+    ]
+  },
+  {
+    "start_time": "17:10:00",
+    "end_time": "17:40:00",
+    "session_duration": "30",
+    "stage": "Harmony",
+    "program": "Panel Discussion",
+    "title": "The borderless blueprint: Sweden and India\u2019s innovation alliance",
+    "description": "As part of the Sweden India Innovation Bridge, India and Sweden are rewriting the playbook for collaboration across technology, investment, government, academia, entrepreneurship and more. Hear how this ecosystem is building bridges that go beyond partnerships - shaping how innovation truly works in a borderless world.",
+    "speaker": [
+    {
+      "name": "Ariane Bucquet Pousette",
+      "designation": "Head of Startup Ecosystem - Entrepreneurship, Stockholm Business Region"
+    },
+    {
+      "name": "Emma Rozada",
+      "designation": "Founder, Interplanetary Species, Nexular & Techno Creatives Venture"
+    },
+    {
+      "name": "Lisa Ericsson",
+      "designation": "Head of KTH Innovation & CEO, KTH Ventures"
+    }
+  ]
+  },
+  {
+    "start_time": "17:45:00",
+    "end_time": "17:55:00",
+    "session_duration": "10",
+    "stage": "Harmony",
+    "program": "Keynote Address",
+    "title": "India: The new epicenter of enterprise tech buying",
+    "description": "Enterprise technology buying has quietly shifted from global headquarters to India\u2019s Global Capability Centers (GCCs). Sankara Srinivasan, Co-founder of Koot.business, explores how GCCs have become the new nerve centres of enterprise decision-making, and what this means for SaaS founders, investors, and partners looking to tap global enterprise markets from India.",
+    "speaker": {
+      "name": "Sankara Srinivasan Aiyyathurai",
+      "designation": "Founder, Koot"
+    }
+  },
+  {
+    "start_time": "18:00:00",
+    "end_time": "18:30:00",
+    "session_duration": "30",
+    "stage": "Harmony",
+    "program": "Fireside Chat",
+    "title": "Art of storytelling: How authentic narratives build trust, attract capital, and create loyal communities",
+    "description": "How can authentic storytelling serve as a powerful tool to build trust, attract capital, and nurture loyal communities? Kunal Kapoor, actor and co-founder of Ketto, shares insights from his entrepreneurial journey on translating purpose and passion into narratives that inspire action and drive impact.",
+    "speaker": {
+      "name": "Kunal Kapoor",
+      "designation": "Actor & Co-founder, Ketto"
+    }
+  }
+]

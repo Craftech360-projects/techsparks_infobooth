@@ -1,0 +1,155 @@
+[
+  {
+    "start_time": "14:00:00",
+    "end_time": "14:25:00",
+    "session_duration": "25",
+    "stage": "Harmony",
+    "program": "Masterclass",
+    "title": "Building efficient AI systems: A CTO’s guide to pragmatism over hype",
+    "description": "As AI transforms industries, businesses realise that not every shiny model delivers value. InMobi CTO Mohit Saxena decodes what it takes to build efficient, scalable AI systems that cut through the hype to focus on architecture, data discipline, and pragmatic innovation and actually drive business outcomes in the real world.",
+    "speaker": {
+      "name": "Mohit Saxena",
+      "designation": "Co-founder & CTO, Inmobi"
+    }
+  },
+  {
+    "start_time": "14:30:00",
+    "end_time": "14:50:00",
+    "session_duration": "20",
+    "stage": "Harmony",
+    "program": "Fireside Chat",
+    "title": "Performance for all: Democratizing activewear in India",
+    "description": "As India gets younger, fitter, and more aspirational, activewear has become an everyday lifestyle. Learn how TechnoSport is decoding this shift, building large-scale manufacturing facilities, driving innovation to make performance wear accessible, and positioning the country as a global activewear powerhouse.",
+    "speaker": {
+      "name": "Puspen Maity",
+      "designation": "CEO, Technosport"
+    }
+  },
+  {
+    "start_time": "14:55:00",
+    "end_time": "15:20:00",
+    "session_duration": "25",
+    "stage": "Harmony",
+    "program": "Masterclass",
+    "title": "Models to markets: Vertical AI for the Indian consumer",
+    "description": "How do you move from building models to mass adoption? Sanjay Mohan, Group CTO of MakeMyTrip, explores the journey of vertical AI applications, covering evaluation sets, user experience, new form factors, and scaling for India’s multilingual, mobile-first audience.",
+    "speaker": {
+      "name": "Sanjay Mohan",
+      "designation": "Group Chief Technology Officer, MakeMyTrip"
+    }
+  },
+  {
+    "start_time": "15:25:00",
+    "end_time": "16:05:00",
+    "session_duration": "40",
+    "stage": "Harmony",
+    "program": "Panel Discussion",
+    "title": "AI in enterprise: hype v/s reality",
+    "description": "As AI reshapes every facet of enterprise operations—from customer experience to productivity—leaders face a critical question: how much of today’s AI promise translates into measurable business impact? Founders and investors separate signal from noise, exploring the true state of AI adoption, ROI, and readiness in the enterprise landscape.",
+    "speaker": [
+      {
+        "name": "Bala Gorthi",
+        "designation": "COO, Teleradiology Solutions (TRS)"
+      },
+      {
+        "name": "Khadim Batti",
+        "designation": "Co-founder & CEO, Whatfix"
+      },
+      {
+        "name": "Raghav Chandra",
+        "designation": "Co-founder & CPTO, Urban Company"
+      }
+    ]
+  },
+  {
+    "start_time": "16:15:00",
+    "end_time": "16:45:00",
+    "session_duration": "30",
+    "stage": "Harmony",
+    "program": "Panel Discussion",
+    "title": "Intelligence-driven Earth: The business case for geospatial AI",
+    "description": "AI and satellite data are transforming how businesses see our planet, from tracking crop yields and monitoring emissions to mitigating climate risks. As Earth observation intelligence reshapes industries like agriculture, insurance, logistics, and mining, India\u2019s leading spacetech startups decode how companies can be both profitable and \u2018planet-positive\u2019.",
+    "speaker": [
+      {
+        "name": "Anirudh Sharma",
+        "designation": "Co-founder & CEO, Digantara"
+      },
+      {
+        "name": "Awais Ahmed",
+        "designation": "Founder & CEO, Pixxel"
+      },
+      {
+        "name": "Yashas Karanam",
+        "designation": "Co-founder & COO, Bellatrix Aerospace"
+      }
+    ]
+  },
+  {
+    "start_time": "16:50:00",
+    "end_time": "17:10:00",
+    "session_duration": "20",
+    "stage": "Harmony",
+    "program": "Keynote Address",
+    "title": "Pre-seed: India\u2019s most underserved asset class",
+    "description": "Everyone wants growth-stage unicorns, but India\u2019s structural gap is at the pre-seed \u2014 limited institutional capital, over-reliance on angels, and broken discovery pipelines.",
+    "speaker": {
+      "name": "Aviral  Bhatnagar",
+      "designation": "Managing Partner, AJVC"
+    }
+  },
+  {
+    "start_time": "17:15:00",
+    "end_time": "17:30:00",
+    "session_duration": "15",
+    "stage": "Harmony",
+    "program": "Keynote Address",
+    "title": "Fair, fast, and human: Reimagining recruitment with AI agents",
+    "description": "Recruitment has long struggled to balance speed with fairness. As AI agents transform hiring through automation and data-driven insights, Adithyan RK of Hyring explores how transparency, human oversight, and ethical governance can make AI-driven recruitment both efficient and empathetic.",
+    "speaker": {
+      "name": "Adithyan RK",
+      "designation": "Co-founder & CEO, Hyring Inc"
+    }
+  },
+  {
+    "start_time": "17:35:00",
+    "end_time": "18:05:00",
+    "session_duration": "30",
+    "stage": "Harmony",
+    "program": "Panel Discussion",
+    "title": "Doctor-on-cloud: Role of AI in critical to chronic care",
+    "description": "India faces a stark gap in healthcare access and doctor availability, and AI-powered diagnostics can bridge this divide by enabling faster, cheaper, and more accurate screenings, along with timely interventions. Hear from startups how scalable AI solutions, offered affordably, can make quality healthcare truly universal across Bharat.",
+    "speaker": [
+      {
+        "name": "Ankur Jain",
+        "designation": "Co-founder, Jivi AI"
+      },
+      {
+        "name": "Laina Emmanuel",
+        "designation": "Co-founder & CEO, BrainSightAI"
+      },
+      {
+        "name": "Dhruv Joshi",
+        "designation": "Co-founder & Global CEO, Cloudphysician"
+      }
+    ]
+  },
+  {
+    "start_time": "18:10:00",
+    "end_time": "18:40:00",
+    "session_duration": "30",
+    "stage": "Harmony",
+    "program": "Panel Discussion",
+    "title": "Agentic AI and the new CX playbook",
+    "description": "AI agents are redefining how brands engage, assist, and retain customers \u2014 moving from scripted chatbots to intelligent, context-aware companions. As enterprises adopt agentic AI, the focus shifts from response speed to emotional intelligence, personalisation, and trust. Learn why brands need to find a way to build this at scale.",
+    "speaker": [
+      {
+        "name": "Anand Jain",
+        "designation": "Co-founder, CleverTap"
+      },
+      {
+        "name": "Shivakumar Ganesan",
+        "designation": "Co-founder & CEO, Exotel"
+      }
+    ]
+  }
+]

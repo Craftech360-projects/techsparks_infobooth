@@ -3,21 +3,26 @@
 import PageHeader from "@/components/PageHeader";
 import { useState, useEffect, useRef } from "react";
 
+interface Speaker {
+  name: string;
+  designation: string;
+}
+
 interface Session {
-  Day: string;
-  Venue: string;
-  "Session format": string;
-  "Session type": string;
-  "Session Name": string;
-  Speaker: string;
-  "Session duration (mins)": string;
-  "Session Time From (IST)": string;
-  "Session Time To (IST)": string;
+  start_time: string;
+  end_time: string;
+  session_duration: string;
+  stage: string;
+  program: string;
+  title: string;
+  description: string;
+  speaker?: Speaker | Speaker[];
+  speakers?: Speaker[];
 }
 
 export default function AgendaPage() {
   const [selectedDay, setSelectedDay] = useState("day1");
-  const [selectedHall, setSelectedHall] = useState("aura");
+  const [selectedHall, setSelectedHall] = useState("main-hall");
   const [sessions, setSessions] = useState<Session[]>([]);
   const [thumbPosition, setThumbPosition] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
@@ -31,16 +36,17 @@ export default function AgendaPage() {
   ];
 
   const halls = [
-    { id: "aura", label: "Aura Hall" },
+    { id: "main-hall", label: "Aura Hall" },
     { id: "harmony", label: "Harmony Hall" },
-    { id: "azure", label: "Azure Hall" },
   ];
 
   useEffect(() => {
     const fetchSessions = async () => {
       try {
+        const dayNumber = selectedDay.replace("day", "");
+        const hallName = selectedHall === "main-hall" ? "Main_Hall" : "Harmony";
         const res = await fetch(
-          `/data/agenda/${selectedDay}-${selectedHall}.json`
+          `/data/agenda/Day_${dayNumber}_agenda_${hallName}.json`
         );
         const data = await res.json();
         setSessions(data);
@@ -216,14 +222,26 @@ export default function AgendaPage() {
               {/* Sessions */}
               <div className="space-y-8 mr-52">
                 {sessions.map((session, index) => {
-                  const timeFrom = session["Session Time From (IST)"].substring(
-                    0,
-                    5
-                  );
-                  const timeTo = session["Session Time To (IST)"].substring(
-                    0,
-                    5
-                  );
+                  // Skip empty or header rows
+                  if (!session.program || session.start_time === "From") {
+                    return null;
+                  }
+
+                  const timeFrom = session.start_time.substring(0, 5);
+                  const timeTo = session.end_time.substring(0, 5);
+
+                  // Handle speakers (array), speaker (object), and speaker (array) formats
+                  let speakersList: Speaker[] = [];
+                  if (session.speakers) {
+                    speakersList = session.speakers;
+                  } else if (session.speaker) {
+                    // Check if speaker is an array or object
+                    if (Array.isArray(session.speaker)) {
+                      speakersList = session.speaker;
+                    } else if (session.speaker.name) {
+                      speakersList = [session.speaker];
+                    }
+                  }
 
                   return (
                     <div
@@ -243,16 +261,60 @@ export default function AgendaPage() {
                         {/* Session Content */}
                         <div className="flex justify-between items-start">
                           <div className="flex-1">
-                            <div className="flex items-center gap-3">
-                              <h3
-                                className="font-bold"
-                                style={{ color: "#FFFFFF", fontSize: "32px" }}
-                              >
-                                {session["Session format"]}
-                              </h3>
-                            </div>
+                            {/* Program - bold */}
+                            <h3
+                              className="font-bold"
+                              style={{ color: "#FFFFFF", fontSize: "30px" }}
+                            >
+                              {session.program}
+                            </h3>
 
-                            {/* Moderator */}
+                            {/* Title - bold */}
+                            {session.title && (
+                              <h4
+                                className="font-bold mt-2"
+                                style={{ color: "#FFFFFF", fontSize: "30px" }}
+                              >
+                                {session.title}
+                              </h4>
+                            )}
+
+                            {/* Description - regular */}
+                            {session.description && (
+                              <p
+                                className="mt-2"
+                                style={{
+                                  color: "#FFFFFF",
+                                  fontSize: "26px",
+                                  fontWeight: "400",
+                                  lineHeight: "1.4"
+                                }}
+                              >
+                                {session.description}
+                              </p>
+                            )}
+
+                            {/* Speakers section with gap */}
+                            {speakersList.length > 0 && (
+                              <div className="mt-6">
+                                {speakersList.map((speaker, idx) => (
+                                  <p
+                                    key={idx}
+                                    className="mb-2"
+                                    style={{ color: "#FFFFFF", fontSize: "26px" }}
+                                  >
+                                    {/* Speaker name - bold */}
+                                    <span className="font-bold">{speaker.name}</span>
+                                    {/* Speaker designation - regular in brackets */}
+                                    {speaker.designation && (
+                                      <span style={{ fontWeight: "400" }}>
+                                        {" "}({speaker.designation})
+                                      </span>
+                                    )}
+                                  </p>
+                                ))}
+                              </div>
+                            )}
                           </div>
 
                           {/* Time */}
@@ -267,19 +329,9 @@ export default function AgendaPage() {
                               className="italic"
                               style={{ color: "#FFFFFF", fontSize: "24px" }}
                             >
-                              ({session["Session duration (mins)"]} mins)
+                              ({session.session_duration} mins)
                             </div>
                           </div>
-                        </div>
-
-                        {/* Session Type */}
-                        <div style={{ color: "#ffffffff", fontSize: "26px", width: "1000px", fontWeight: "500", whiteSpace: "pre-line"}}>
-                          {session["Session Name"]}
-                          {session.Speaker && session.Speaker !== "nan" && (
-                            <p style={{ color: "#FFFFFF", fontSize: "26px", fontWeight: "600", whiteSpace: "pre-line" }}>
-                              {session.Speaker}
-                            </p>
-                          )}
                         </div>
                       </div>
                     </div>

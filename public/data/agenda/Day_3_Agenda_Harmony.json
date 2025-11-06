@@ -1,0 +1,145 @@
+[
+  {
+    "start_time": "From",
+    "end_time": "To",
+    "session_duration": "Duration (Min)",
+    "stage": "Harmony",
+    "program": "Focus Stage",
+    "title": "",
+    "description": "",
+    "speaker": {
+      "name": "",
+      "designation": ""
+    }
+  },
+  {
+    "start_time": "",
+    "end_time": "",
+    "session_duration": "",
+    "stage": "Harmony",
+    "program": "Harmony",
+    "title": "",
+    "description": "",
+    "speaker": {
+      "name": "",
+      "designation": ""
+    }
+  },
+  {
+    "start_time": "11:30:00",
+    "end_time": "11:35:00",
+    "session_duration": "",
+    "stage": "Harmony",
+    "program": "Fireside Chat",
+    "title": "The energy cost of intelligence: How AI is reshaping global power demand",
+    "description": "AI training models and workloads are reshaping global energy consumption, with data centers vying for electricity alongside cities and hyperscalers making direct deals with grid operators. As affordable, green, local power emerges as a competitive advantage, India's distinct opportunity is to leverage the data centre expansion alongside its solar power capabilities.",
+    "speaker": {
+      "name": "Srinath Ramakkrushnan",
+      "designation": "Co-founder & COO, Zetwerk"
+    }
+  },
+  {
+    "start_time": "12:00:00",
+    "end_time": "12:05:00",
+    "session_duration": "20",
+    "stage": "Harmony",
+    "program": "Panel Discussion",
+    "title": "Age of AI teammates: Redefining productivity and workplace collaboration",
+    "description": "From finance to HR, AI agents are quietly automating decision layers once handled by humans. As agentic AI evolves from task executors to autonomous collaborators, it is reshaping workplace hierarchies, creativity, and accountability. Are we ready to treat algorithms as co-workers, not just tools?",
+    "speaker": {
+      "name": "Manoj Agarwal",
+      "designation": "Co-founder & President, DevRev"
+    }
+  },
+  {
+    "start_time": "12:35:00",
+    "end_time": "12:40:00",
+    "session_duration": "",
+    "stage": "Harmony",
+    "program": "Keynote Address",
+    "title": "Data-driven deeptech vs privacy rights: Startup strategies in India\u2019s new regulatory era",
+    "description": "As India\u2019s data & technology laws evolve, startups face a defining challenge -- balancing deep tech innovation with the growing weight of privacy rights, AI, policy & regulations. Drawing from her regulatory expertise, Shivaarti Bajaj Founder of RSD Bajaj Global Law Firm, decodes how founders can stay compliant without slowing down breakthrough innovation.",
+    "speaker": {
+      "name": "Shivaarti Bajaj",
+      "designation": "Founder & Managing Partner, RSD Bajaj Global"
+    }
+  },
+  {
+    "start_time": "12:50:00",
+    "end_time": "12:55:00",
+    "session_duration": "",
+    "stage": "Harmony",
+    "program": "Panel Discussion",
+    "title": "Intelligent enterprises: Designing human-centric growth in the age of AI",
+    "description": "Today, every interaction sits at the intersection of creativity, data, and automation. But how are modern CMOs balancing technology and the \"human\" aspect of marketing? Learn the art and science of building connected brand ecosystems in today's intelligence-led world, reshaping the way enterprises connect, convert, and grow.",
+    "speaker": {
+      "name": "Jollydeep Kaur",
+      "designation": "Head of Marketing, NextGen Cloud Technologies"
+    }
+  },
+  {
+    "start_time": "",
+    "end_time": "",
+    "session_duration": "",
+    "stage": "Harmony",
+    "program": "Harmony",
+    "title": "",
+    "description": "",
+    "speaker": {
+      "name": "",
+      "designation": ""
+    }
+  },
+  {
+    "start_time": "14:30:00",
+    "end_time": "14:35:00",
+    "session_duration": "30",
+    "stage": "Harmony",
+    "program": "Product Showcase",
+    "title": "CheQ Wisor \u2014 India\u2019s first AI credit card expert",
+    "description": "Built on the belief that credit shouldn\u2019t be complicated. CheQ has helped millions pay, track and earn smarter on their credit card bills.",
+    "speaker": {
+      "name": "Aditya Soni",
+      "designation": "Founder & CEO, CheQ"
+    }
+  },
+  {
+    "start_time": "14:50:00",
+    "end_time": "14:55:00",
+    "session_duration": "",
+    "stage": "Harmony",
+    "program": "Fireside Chat",
+    "title": "Decoding PolicyBazaar\u2019s tech stack: Rewiring insurance with AI\u00a0and\u00a0automation",
+    "description": "Insurance is no longer just distribution \u2014 it\u2019s a real-time underwriting, personalisation and servicing engine powered by data and AI. At PolicyBazaar, advanced machine learning, behavioural analytics, and digital verification systems turn millions of customer signals into smarter product matching, personalised pricing insights, fraud reduction, and instant policy issuance. This conversation will dive into how the company\u2019s technology foundation \u2014 spanning conversational AI, risk-assessment models, and digital claims workflows \u2014 is transforming insurance from paperwork-laden to predictive, proactive, and seamlessly digital for millions of Indians.",
+    "speaker": {
+      "name": "",
+      "designation": ""
+    }
+  },
+  {
+    "start_time": "17:10:00",
+    "end_time": "17:15:00",
+    "session_duration": "",
+    "stage": "Harmony",
+    "program": "Keynote Address",
+    "title": "India's AI future: Building beyond Ohio's shadow",
+    "description": "Every Indian developer who learned cloud computing knows Ohio\u2014the AWS default. But as India builds its AI future, will the next generation still deploy there or in Bangalore? Vishnu Subramaniam of E2E Networks reveals what\u2019s possible when India powers AI on its own terms.",
+    "speaker": {
+      "name": "Vishnu Subramanian",
+      "designation": "Head of Product and Marketing, E2E Networks Limited"
+    }
+  },
+  {
+    "start_time": "17:30:00",
+    "end_time": "17:35:00",
+    "session_duration": "",
+    "stage": "Harmony",
+    "program": "Keynote Address:",
+    "title": "Human-Centered AI: Oversight without bottlenecks in autonomous industry",
+    "description": "Autonomous industrial operations promise efficiency gains but raise critical questions: Who's accountable when AI decides?",
+    "speaker": {
+      "name": "Rajesh Ramachandran",
+      "designation": "Global Chief Digital Officer, ABB"
+    }
+  }
+]
