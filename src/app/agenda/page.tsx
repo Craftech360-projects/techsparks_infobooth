@@ -44,11 +44,8 @@ export default function AgendaPage() {
   useEffect(() => {
     const fetchSessions = async () => {
       try {
-        const dayNumber = selectedDay.replace("day", "");
-        // Capitalize first letter of hall name to match file naming
-        const hallName = selectedHall.charAt(0).toUpperCase() + selectedHall.slice(1);
         const res = await fetch(
-          `/data/agenda/Day_${dayNumber}_agenda_${hallName}.json`
+          `/data/agenda/${selectedDay}_hall_${selectedHall}.json`
         );
         const data = await res.json();
         setSessions(data);
